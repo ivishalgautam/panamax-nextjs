@@ -5,6 +5,6 @@ export const metadata = {
   description: "This is blog page.",
 };
 
-export default function Layout({ children }) {
+export default function BlogsLayout({ children }) {
   return children;
 }

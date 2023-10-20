@@ -5,6 +5,6 @@ export const metadata = {
   description: "This is contact us page.",
 };
 
-export default function Layout({ children }) {
+export default function ContactUsLayout({ children }) {
   return children;
 }

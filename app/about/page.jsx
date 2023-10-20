@@ -28,11 +28,6 @@ const AboutPage = () => {
         staggerChildren: 0.2,
       }}
     >
-      <Head>
-        <title>
-          iPhone 12 XS Max For Sale in Colorado - Big Discounts | Apple
-        </title>
-      </Head>
       {/* breadcrumb */}
       <BreadCrumb_common />
       <section className="bg-white w-full grid grid-cols-1 lg:grid-cols-12 place-items-start gap-5 p-4 mt-4 md:p-10 relative after:absolute after:top-0 after:right-0 after:bg-primary after:w-1/6 after:h-full after:-z-10 z-0 after:hidden after:lg:block">
@@ -44,7 +39,7 @@ const AboutPage = () => {
           className="px-2 md:px-8 lg:px-10 col-span-1 lg:col-span-8"
         >
           <h2 className="text-2xl font-bold">
-            About
+            About&nbsp;
             <span className="inline-block text-primary italic drop-shadow-lg">
               Panamax
             </span>
