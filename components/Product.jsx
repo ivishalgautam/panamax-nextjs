@@ -18,6 +18,8 @@ import NotFound from "@/app/not-found";
 
 export const Product = ({ productId }) => {
   let dispatch = useDispatch();
+  const pathname = usePathname();
+
   let slice = 5;
   const [showMore, setShowMore] = useState(false);
   const [showFeatures, setShowFeatures] = useState(slice);
@@ -63,7 +65,6 @@ export const Product = ({ productId }) => {
     },
   };
 
-  const pathname = usePathname();
   useEffect(() => {
     // 👇️ scroll to top on page load
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
