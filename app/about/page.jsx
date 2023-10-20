@@ -43,7 +43,7 @@ const AboutPage = () => {
           transition={{ duration: 2 }}
           className="px-2 md:px-8 lg:px-10 col-span-1 lg:col-span-8"
         >
-          <h2 className="text-2xl font-bold ">
+          <h2 className="text-2xl font-bold">
             About
             <span className="inline-block text-primary italic drop-shadow-lg">
               Panamax
@@ -55,7 +55,7 @@ const AboutPage = () => {
               Trust sets us apart and propels us towards success. Our mission is
               to help everyone achieve greatness and create remarkable stories
               together. We have the solutions to transform your dreams into
-              reality. With pride, we declare, "We Make Things Stick," and we
+              reality. With pride, we declare, We Make Things Stick, and we
               commit to sticking with you on your journey towards fulfilling
               your aspirations.
             </p>
@@ -101,7 +101,7 @@ const AboutPage = () => {
           className="flex-box-center col-span-1 lg:col-span-4"
         >
           <figure>
-            <Image src={heroImage} alt="" />
+            <Image src={heroImage} alt="img" />
           </figure>
         </motion.div>
       </section>

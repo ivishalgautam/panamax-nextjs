@@ -21,7 +21,7 @@ const About = () => {
         >
           <h1 className="text-2xl font-bold">
             <span className="inline-block text-primary italic drop-shadow-lg">
-              Panamax - ;
+              Panamax -
             </span>
             Your Trusted Tape Manufacturing Partner in Delhi, India
           </h1>
