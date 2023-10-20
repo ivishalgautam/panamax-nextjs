@@ -3,9 +3,9 @@ import { blogs } from "@/store/blogs";
 
 export async function generateStaticParams() {
   const resp = await JSON.stringify(blogs);
-  const blogs = await JSON.parse(resp);
+  const blogsArr = await JSON.parse(resp);
 
-  return blogs?.map((blog) => ({
+  return blogsArr?.map((blog) => ({
     slug: blog.path.toString(),
   }));
 }
