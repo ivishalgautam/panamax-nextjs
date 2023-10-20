@@ -14,6 +14,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   const pathname = usePathname();
+  console.log(pathname);
   const { products } = useSelector((store) => store.products);
   useEffect(() => {
     window.addEventListener("scroll", () => setInputVal(""));
@@ -148,7 +149,7 @@ const Navbar = () => {
                             <Link
                               href={`/product/${submenu.path}`}
                               className={`flex items-center h-full w-full text-start px-2 py-2 text-sm hover:tracking-wider ${
-                                pathname.includes(submenu.path)
+                                pathname.split("/")[2] === submenu.path
                                   ? "bg-primary text-white"
                                   : "hover:bg-primary hover:text-white"
                               }  rounded-md transition-all`}
