@@ -17,6 +17,7 @@ import Image from "next/image";
 import NotFound from "@/app/not-found";
 
 export const Product = ({ productId }) => {
+  let dispatch = useDispatch();
   let slice = 5;
   const [showMore, setShowMore] = useState(false);
   const [showFeatures, setShowFeatures] = useState(slice);
@@ -41,7 +42,6 @@ export const Product = ({ productId }) => {
     productImg,
     videoPath,
   } = filteredProduct[0];
-  let dispatch = useDispatch();
 
   const container = {
     hidden: { opacity: 1, scale: 0 },
