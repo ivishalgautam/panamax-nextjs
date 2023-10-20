@@ -2,7 +2,7 @@ import React from "react";
 
 export const metadata = {
   title: "Blogs",
-  description: "This is blog page.",
+  description: "This is about page.",
 };
 
 export default function Layout({ children }) {
