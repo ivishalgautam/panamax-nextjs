@@ -16,7 +16,7 @@ export async function generateMetadata({ params: { productId } }) {
     const product = await data.json();
     // console.log({ product });
 
-    if (!product) {
+    if (!product.length) {
       return {
         title: "Not Found!",
         description: "The page you you looking for does not exist!",
