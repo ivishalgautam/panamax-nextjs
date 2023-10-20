@@ -2,7 +2,9 @@ import { Product } from "@/components/Product";
 import { useSelector } from "react-redux";
 
 export async function generateStaticParams() {
-  const resp = await fetch("http://localhost:3000/api/products");
+  const resp = await fetch(
+    "https://panamax-nextjs-261lvngu6-techinfrakeys-gmailcom.vercel.app/products"
+  );
   const products = await resp.json();
 
   return products?.map((product) => ({
@@ -12,7 +14,9 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params: { productId } }) {
   try {
-    const data = await fetch(`http://localhost:3000/api/products/${productId}`);
+    const data = await fetch(
+      `https://panamax-nextjs-261lvngu6-techinfrakeys-gmailcom.vercel.app/products/${productId}`
+    );
     const product = await data.json();
     // console.log({ product });
 
