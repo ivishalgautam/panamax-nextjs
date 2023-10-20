@@ -307,7 +307,7 @@ export const Product = ({ productId }) => {
                 className="rounded-2xl bg-white flex-box-col-between gap-y-1 w-[180px] h-[120px]"
               >
                 <figure className="p-4 rounded-lg box-shadow-card">
-                  <img src={item.icon} alt="" className="w-[50px]" />
+                  <Image src={item.icon} alt="" className="w-[50px]" />
                 </figure>
                 <h2 className="pt-2 text-center text-sm">{item.name}</h2>
               </div>
