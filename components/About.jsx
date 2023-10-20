@@ -27,7 +27,7 @@ const About = () => {
           </h1>
           <div className="my-6 text-sm">
             <p className="mt-4">
-              At Panamax, we take pride in being Delhi's leading tape
+              At Panamax, we take pride in being Delhi&apos;s leading tape
               manufacturer, offering a wide range of adhesive, mask, and
               self-adhesive tapes. We Provide OEM Solutions. With our focus on
               precision and innovation, we guarantee top-quality products that
