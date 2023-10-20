@@ -17,7 +17,7 @@ const Navbar = () => {
   const { products } = useSelector((store) => store.products);
   useEffect(() => {
     window.addEventListener("scroll", () => setInputVal(""));
-  }, [window.scrollY]);
+  }, [typeof window !== "undefined" && window.scrollY]);
   const navList = [
     {
       id: 1,
@@ -223,7 +223,7 @@ const Navbar = () => {
                         className="text-black text-start text-sm mb-2"
                       >
                         <Link
-                          href={`product/${submenu.path}`}
+                          href={`/product/${submenu.path}`}
                           className="inline-block h-full w-full"
                           onClick={() => {
                             setIsNavOpened(false);
