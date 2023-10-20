@@ -101,15 +101,17 @@ const Navbar = () => {
         <ul className="flex items-center justify-center gap-4 relative z-50">
           {navList.map((menu, key) => {
             return menu.type !== "dropdown" ? (
-              <Link
-                key={key}
-                href={menu.path}
-                className={`text-sm capitalize ${
-                  pathname === menu.path && "font-semibold text-primary"
-                } `}
-              >
-                {menu.name}
-              </Link>
+              <li>
+                <Link
+                  key={key}
+                  href={menu.path}
+                  className={`text-sm capitalize ${
+                    pathname === menu.path && "font-semibold text-primary"
+                  } `}
+                >
+                  {menu.name}
+                </Link>
+              </li>
             ) : (
               <Menu key={key} as="div" className="relative z-50">
                 <Menu.Button
