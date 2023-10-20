@@ -44,7 +44,7 @@ const AboutPage = () => {
           className="px-2 md:px-8 lg:px-10 col-span-1 lg:col-span-8"
         >
           <h2 className="text-2xl font-bold ">
-            About{" "}
+            About
             <span className="inline-block text-primary italic drop-shadow-lg">
               Panamax
             </span>

@@ -19,9 +19,9 @@ const About = () => {
           ref={ref}
           className="px-2 md:px-8 lg:px-10 col-span-12 md:col-span-7"
         >
-          <h1 className="text-2xl font-bold ">
+          <h1 className="text-2xl font-bold">
             <span className="inline-block text-primary italic drop-shadow-lg">
-              Panamax -&nbsp;
+              Panamax - ;
             </span>
             Your Trusted Tape Manufacturing Partner in Delhi, India
           </h1>
