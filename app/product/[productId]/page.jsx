@@ -1,11 +1,10 @@
 import { Product } from "@/components/Product";
-import { useSelector } from "react-redux";
 
 export async function generateStaticParams() {
   const resp = await fetch(
     "https://panamax-nextjs-261lvngu6-techinfrakeys-gmailcom.vercel.app/products"
   );
-  const products = await resp.json();
+  const products = await resp?.json();
 
   return products?.map((product) => ({
     productId: product.path.toString(),
@@ -17,7 +16,7 @@ export async function generateMetadata({ params: { productId } }) {
     const data = await fetch(
       `https://panamax-nextjs-261lvngu6-techinfrakeys-gmailcom.vercel.app/products/${productId}`
     );
-    const product = await data.json();
+    const product = await data?.json();
     // console.log({ product });
 
     if (!product.length) {
