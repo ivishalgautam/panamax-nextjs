@@ -105,13 +105,17 @@ const Navbar = () => {
                 href={menu.path}
                 className={`text-sm capitalize ${
                   pathname === menu.path && "font-semibold text-primary"
-                }`}
+                } `}
               >
                 {menu.name}
               </Link>
             ) : (
               <Menu key={key} as="div" className="relative z-50">
-                <Menu.Button className="flex items-center justify-center capitalize text-sm">
+                <Menu.Button
+                  className={`flex items-center justify-center capitalize text-sm ${
+                    pathname.includes("product") && "font-semibold text-primary"
+                  }`}
+                >
                   {menu.name}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -143,7 +147,11 @@ const Navbar = () => {
                           <Menu.Item key={submenu.id}>
                             <Link
                               href={`/product/${submenu.path}`}
-                              className={`flex items-center h-full w-full text-start px-2 py-2 text-sm hover:tracking-wider hover:bg-primary hover:text-white rounded-md transition-all `}
+                              className={`flex items-center h-full w-full text-start px-2 py-2 text-sm hover:tracking-wider ${
+                                pathname.includes(submenu.path)
+                                  ? "bg-primary text-white"
+                                  : "hover:bg-primary hover:text-white"
+                              }  rounded-md transition-all`}
                             >
                               {submenu.name}
                             </Link>
