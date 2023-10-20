@@ -20,6 +20,11 @@ export const Product = ({ productId }) => {
   let dispatch = useDispatch();
   const pathname = usePathname();
 
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, [pathname]);
+
   let slice = 5;
   const [showMore, setShowMore] = useState(false);
   const [showFeatures, setShowFeatures] = useState(slice);
@@ -64,11 +69,6 @@ export const Product = ({ productId }) => {
       opacity: 1,
     },
   };
-
-  useEffect(() => {
-    // 👇️ scroll to top on page load
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  }, [pathname]);
 
   return (
     <>
