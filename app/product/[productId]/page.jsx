@@ -4,7 +4,6 @@ import productsData from "@/store/productsData";
 export async function generateStaticParams() {
   const resp = await JSON.stringify(productsData);
   const products = await JSON.parse(resp);
-  console.log(products);
 
   return products?.map((product) => ({
     productId: product.path.toString(),
@@ -12,9 +11,10 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params: { productId } }) {
-  const p = productsData.filter((product) => product.path === productId);
   try {
-    const data = await JSON.stringify(p);
+    const data = await JSON.stringify(
+      productsData.filter((product) => product.path === productId)
+    );
     const product = await JSON.parse(data);
 
     if (!product.length) {
