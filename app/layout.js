@@ -15,8 +15,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Panamax",
-  description: "Panamax private limited.",
+  title: "Panamax | India's biggest tape manufacturer",
+  description:
+    "Panamax: India's Premier Tape Manufacturer Offering a Wide Range of High-Quality Tapes. From Adhesive to Specialty Tapes, Explore Our Extensive Tape Collection. Enhance Your Projects with Panamax Tapes.",
 };
 
 export default function RootLayout({ children }) {
