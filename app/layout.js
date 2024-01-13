@@ -2,6 +2,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/store/Provider";
 import Navbar from "@/components/Navbar";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 // swiper css
 import "swiper/css";
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Navbar />
           {children}
+          <SpeedInsights />
         </Providers>
       </body>
     </html>
