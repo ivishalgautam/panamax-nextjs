@@ -1,3 +1,4 @@
+import { blogs } from "@/store/blogs";
 import productsData from "@/store/productsData";
 
 export default async function Sitemap() {
