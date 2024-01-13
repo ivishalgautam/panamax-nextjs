@@ -21,7 +21,7 @@ export default async function Sitemap() {
   const productUrls =
     products?.map((product) => {
       return {
-        url: `${baseUrl}/product/${product.path},`,
+        url: `${baseUrl}/product/${product.path}`,
         lastModified: new Date(),
       };
     }) ?? [];
