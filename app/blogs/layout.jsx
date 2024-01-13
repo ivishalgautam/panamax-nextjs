@@ -1,8 +1,9 @@
 import React from "react";
 
 export const metadata = {
-  title: "Blogs",
-  description: "This is blog page.",
+  title: "Blog - PANAMAX LIMITED",
+  description:
+    "Explore the latest insights and innovations in tape manufacturing at Panamax. Our blogs cover the tape industry's trends, technologies, and applications.",
 };
 
 export default function BlogsLayout({ children }) {
