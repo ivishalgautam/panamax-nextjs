@@ -17,9 +17,8 @@ export async function generateMetadata({ params: { productId } }) {
       productsData.filter((product) => product.path === productId)
     );
     const product = await JSON.parse(data);
-    console.log(product?.[0]?.productImg?.src);
 
-    if (!product.length) {
+    if (!product?.length) {
       return {
         title: "Not Found!",
         description: "The page you you looking for does not exist!",
@@ -40,7 +39,7 @@ export async function generateMetadata({ params: { productId } }) {
             url: product?.[0]?.productImg?.src,
             width: 800,
             height: 600,
-            alt: product?.[0]?.title,
+            alt: product?.[0]?.metaTitle,
           },
         ],
       },
