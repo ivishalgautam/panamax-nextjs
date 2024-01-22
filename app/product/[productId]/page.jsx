@@ -17,6 +17,7 @@ export async function generateMetadata({ params: { productId } }) {
       productsData.filter((product) => product.path === productId)
     );
     const product = await JSON.parse(data);
+    console.log(product?.[0]?.productImg?.src);
 
     if (!product.length) {
       return {
@@ -36,9 +37,10 @@ export async function generateMetadata({ params: { productId } }) {
         description: product?.[0]?.metaDescription,
         images: [
           {
-            url: <Image src={product?.[0]?.productImg} />,
+            url: product?.[0]?.productImg?.src,
             width: 800,
             height: 600,
+            alt: product?.[0]?.title,
           },
         ],
       },
