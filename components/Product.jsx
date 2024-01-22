@@ -80,9 +80,9 @@ export const Product = ({ productId }) => {
       >
         {/* breadcrumb */}
         <motion.div variants={item} className="breadcommon">
-          <h1 className="text-[24px] font-bold text-primary relative z-10 capitalize ">
+          <h2 className="text-[24px] font-bold text-primary relative z-10 capitalize ">
             {name}
-          </h1>
+          </h2>
           <ul className="breadLinks flex-box-start text-white text-xs md:text-sm relative z-10 gap-1">
             <li>
               <AiFillHome className="inline-block" /> <Link href="/">Home</Link>
@@ -118,9 +118,9 @@ export const Product = ({ productId }) => {
           </Swiper>
 
           <div className="col-span-12 md:col-span-7 py-4 flex-box-col-center items-start transition-all">
-            <h3 className="text-2xl font-bold text-gray-900 capitalize border-l-[3px] mb-4 border-primary pl-2">
+            <h1 className="text-2xl font-bold text-gray-900 capitalize border-l-[3px] mb-4 border-primary pl-2">
               {title}
-            </h3>
+            </h1>
             <div>
               <p
                 dangerouslySetInnerHTML={{
