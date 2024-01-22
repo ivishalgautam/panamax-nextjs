@@ -39,8 +39,8 @@ export async function generateMetadata({ params: { productId } }) {
         images: [
           {
             url: `https://panamax.co.in${product?.[0]?.productImg?.src}`,
-            width: 800,
-            height: 600,
+            width: 500,
+            height: 350,
             alt: product?.[0]?.metaTitle,
           },
         ],
