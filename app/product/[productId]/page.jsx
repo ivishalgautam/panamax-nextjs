@@ -34,11 +34,15 @@ export async function generateMetadata({ params: { productId } }) {
       openGraph: {
         title: product?.[0]?.metaTitle,
         description: product?.[0]?.metaDescription,
-        image: {
-          url: <Image src={product?.[0]?.productImg} />,
-          width: 800,
-          height: 600,
-        },
+        images: [
+          {
+            url: (
+              <Image src={product?.[0]?.productImg} alt={product?.[0]?.title} />
+            ),
+            width: 800,
+            height: 600,
+          },
+        ],
       },
     };
   } catch (error) {
