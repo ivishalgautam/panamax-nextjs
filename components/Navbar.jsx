@@ -104,7 +104,7 @@ const Navbar = () => {
                 <Link
                   href={menu.path}
                   className={`text-sm capitalize ${
-                    pathname === menu.path && "font-semibold text-primary"
+                    pathname.includes(menu.path) && "font-semibold text-primary"
                   } `}
                 >
                   {menu.name}
