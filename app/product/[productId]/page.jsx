@@ -18,6 +18,8 @@ export async function generateMetadata({ params: { productId } }) {
     );
     const product = await JSON.parse(data);
 
+    // console.log(product?.[0]?.productImg?.src);
+
     if (!product?.length) {
       return {
         title: "Not Found!",
@@ -36,7 +38,7 @@ export async function generateMetadata({ params: { productId } }) {
         description: product?.[0]?.metaDescription,
         images: [
           {
-            url: product?.[0]?.productImg?.src,
+            url: `https://panamax.co.in${product?.[0]?.productImg?.src}`,
             width: 800,
             height: 600,
             alt: product?.[0]?.metaTitle,
