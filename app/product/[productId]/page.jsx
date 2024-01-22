@@ -1,5 +1,6 @@
 import { Product } from "@/components/Product";
 import productsData from "@/store/productsData";
+import Image from "next/image";
 
 export async function generateStaticParams() {
   const resp = await JSON.stringify(productsData);
@@ -33,6 +34,11 @@ export async function generateMetadata({ params: { productId } }) {
       openGraph: {
         title: product?.[0]?.metaTitle,
         description: product?.[0]?.metaDescription,
+        image: {
+          url: <Image src={product?.[0]?.productImg} />,
+          width: 800,
+          height: 600,
+        },
       },
     };
   } catch (error) {
