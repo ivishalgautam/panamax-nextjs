@@ -22,7 +22,7 @@ const Navbar = () => {
     {
       id: 1,
       name: "home",
-      path: "https://panamax.co.in",
+      path: "/",
       type: "link",
     },
     {
