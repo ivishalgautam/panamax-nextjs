@@ -22,7 +22,7 @@ const Navbar = () => {
     {
       id: 1,
       name: "home",
-      path: "/",
+      path: "#",
       type: "link",
     },
     {
