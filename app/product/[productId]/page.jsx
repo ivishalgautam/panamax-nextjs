@@ -24,8 +24,16 @@ export async function generateMetadata({ params: { productId } }) {
       };
     }
     return {
-      title: product[0]?.title,
-      description: product[0]?.about,
+      title: product?.[0]?.metaTitle,
+      description: product?.[0]?.metaDescription,
+      keywords: product?.[0]?.metaKeywords,
+      alternates: {
+        canonical: `https://panamax.co.in/product/${productId}`,
+      },
+      openGraph: {
+        title: product?.[0]?.metaTitle,
+        description: product?.[0]?.metaDescription,
+      },
     };
   } catch (error) {
     console.log(error);

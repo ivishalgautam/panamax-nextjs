@@ -80,9 +80,9 @@ export const Product = ({ productId }) => {
       >
         {/* breadcrumb */}
         <motion.div variants={item} className="breadcommon">
-          <h2 className="text-[24px] font-bold text-primary relative z-10 capitalize ">
+          <h1 className="text-[24px] font-bold text-primary relative z-10 capitalize ">
             {name}
-          </h2>
+          </h1>
           <ul className="breadLinks flex-box-start text-white text-xs md:text-sm relative z-10 gap-1">
             <li>
               <AiFillHome className="inline-block" /> <Link href="/">Home</Link>
