@@ -36,9 +36,7 @@ export async function generateMetadata({ params: { productId } }) {
         description: product?.[0]?.metaDescription,
         images: [
           {
-            url: (
-              <Image src={product?.[0]?.productImg} alt={product?.[0]?.title} />
-            ),
+            url: <Image src={product?.[0]?.productImg} />,
             width: 800,
             height: 600,
           },
