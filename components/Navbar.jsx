@@ -22,7 +22,7 @@ const Navbar = () => {
     {
       id: 1,
       name: "home",
-      path: "/",
+      path: "https://panamax.co.in",
       type: "link",
     },
     {
@@ -104,9 +104,7 @@ const Navbar = () => {
                 <Link
                   href={menu.path}
                   className={`text-sm capitalize ${
-                    pathname === menu.path ||
-                    (pathname.includes(menu.path) &&
-                      "font-semibold text-primary")
+                    pathname === menu.path && "font-semibold text-primary"
                   } `}
                 >
                   {menu.name}
