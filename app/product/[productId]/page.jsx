@@ -42,9 +42,9 @@ export async function generateMetadata({ params: { productId } }) {
             width: 500,
             height: 350,
             alt: product?.[0]?.metaTitle,
-            type: "website",
           },
         ],
+        type: "website",
       },
     };
   } catch (error) {
