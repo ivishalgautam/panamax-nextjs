@@ -16,7 +16,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Panamax | India's biggest tape manufacturer in India",
+  title: "Panamax | Biggest Tape Manufacturer in India",
   description:
     "Panamax: India's Premier Tape Manufacturer Offering a Wide Range of High-Quality Tapes. From Adhesive to Specialty Tapes, Explore Our Extensive Tape Collection. Enhance Your Projects with Panamax Tapes.",
   keywords:
@@ -34,8 +34,54 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Panamax",
+    name: "PANAMAX TAPES",
+    image:
+      "https://panamax.co.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.17759761.png&w=384&q=75",
+    "@id": "",
+    url: "https://panamax.co.in/",
+    telephone: "18009992049",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "594-595/154 Pooth Khurd Bawana",
+      addressLocality: "Delhi",
+      postalCode: "110039",
+      addressCountry: "IN",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 28.4840092,
+      longitude: 77.320955,
+    },
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+      ],
+      opens: "09:30",
+      closes: "07:00",
+    },
+    sameAs: [
+      "https://www.facebook.com/people/Panamax-Tapes/100064000752424/",
+      "https://www.instagram.com/panamax_tapes/",
+      "https://www.youtube.com/@PanamaxLimited",
+      "https://www.linkedin.com/company/panamaxtapes/",
+      "https://panamax.co.in/",
+    ],
+  };
   return (
     <html lang="en">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      />
       <body className={poppins.className}>
         <Providers>
           <Navbar />

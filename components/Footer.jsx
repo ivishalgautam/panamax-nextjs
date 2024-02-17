@@ -1,7 +1,12 @@
 "use client";
 import React from "react";
 // import { Link, useLocation, useNavigate } from "react-router-dom";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaYoutube,
+} from "react-icons/fa";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import {
   BsFillTelephoneFill,
@@ -179,25 +184,32 @@ const Footer = () => {
 
             <div className="flex-box-center gap-2">
               <a
-                href="https://www.facebook.com/profile.php?id=100064000752424"
+                href="https://www.facebook.com/people/Panamax-Tapes/100064000752424/"
                 target="_blank"
                 className="flex-box-center bg-white hover:bg-secondary text-secondary hover:text-white w-8 h-8 rounded-full transition-colors cursor-pointer"
               >
                 <FaFacebookF size={15} className="m-auto" />
               </a>
               <a
-                href="https://www.instagram.com/panamax_ltd/"
+                href="https://www.instagram.com/panamax_tapes/"
                 target="_blank"
                 className="flex-box-center bg-white hover:bg-secondary text-secondary hover:text-white w-8 h-8 rounded-full transition-colors cursor-pointer"
               >
                 <FaInstagram size={15} className="m-auto" />
               </a>
               <a
-                href="https://www.linkedin.com/company/panamaxltd/"
+                href="https://www.linkedin.com/company/panamaxtapes/"
                 target="_blank"
                 className="flex-box-center bg-white hover:bg-secondary text-secondary hover:text-white w-8 h-8 rounded-full transition-colors cursor-pointer"
               >
                 <FaLinkedinIn size={15} className="m-auto" />
+              </a>
+              <a
+                href="https://www.youtube.com/@PanamaxLimited"
+                target="_blank"
+                className="flex-box-center bg-white hover:bg-secondary text-secondary hover:text-white w-8 h-8 rounded-full transition-colors cursor-pointer"
+              >
+                <FaYoutube size={15} className="m-auto" />
               </a>
             </div>
           </div>

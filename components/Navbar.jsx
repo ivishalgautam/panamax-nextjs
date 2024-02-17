@@ -46,6 +46,12 @@ const Navbar = () => {
     },
     {
       id: 5,
+      name: "exhibitions",
+      path: "/exhibitions",
+      type: "link",
+    },
+    {
+      id: 6,
       name: "contact",
       path: "/contact-us",
       type: "link",
