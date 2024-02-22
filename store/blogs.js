@@ -933,7 +933,7 @@ export const blogs = [
       },
     ],
     image: blog20,
-    postedOn: "!5 December",
+    postedOn: "15 December",
     approvedBy: [
       {
         name: "Admin",

@@ -20,7 +20,7 @@ const Blogs = () => {
       </h2>
       <div className="flex-box-center flex-wrap lg:flex-nowrap gap-8 gap-y-12 py-4 px-2 md:px-8">
         {blogs
-          .toReversed()
+          .reverse()
           .slice(0, 3)
           .map(({ id, title, desc, image, postedOn, path }) => {
             return (

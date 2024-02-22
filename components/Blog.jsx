@@ -109,7 +109,7 @@ export default function Blog({ slug }) {
             </h2>
             <div className="flex-box-col-center gap-3">
               {blogs
-                .toReversed()
+                .reverse()
                 .slice(0, 10)
                 .map((e) => {
                   return (
