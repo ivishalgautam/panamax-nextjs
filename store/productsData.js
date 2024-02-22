@@ -143,7 +143,7 @@ const productsData = [
     productImg: img1,
     image: maskingTape,
     about:
-      "Masking tape is a versatile adhesive tape that is designed to be easily applied and removed without leaving behind residue or damaging surfaces. It consists of a thin strip of paper or thin plastic film coated with a pressure-sensitive adhesive.<br>What sets masking tape apart is its unique ability to temporarily protect surfaces during painting, construction, or other projects. Its primary purpose is to create clean, straight lines and prevent paint or other materials from bleeding or smudging onto adjacent areas. It adheres firmly to surfaces such as walls, trim, glass, and metal, providing a reliable barrier against unwanted paint or adhesive seepage.<br>Beyond its use in painting, masking tape finds applications in various industries and DIY projects. It can be employed for labeling, bundling, light packaging, and even in arts and crafts. Its gentle adhesive properties make it suitable for delicate surfaces, allowing for precise and damage-free masking.      Masking tape's distinguishing feature lies in its easy removal without leaving residue or causing damage, making it a convenient and practical solution for temporary masking needs. Its flexibility and compatibility with a wide range of surfaces make it an essential tool for professionals, hobbyists, and homeowners alike, providing an efficient and clean masking solution for a multitude of projects.",
+      "Masking tape is a versatile adhesive tape that is designed to be easily applied and removed without leaving behind residue or damaging surfaces. It consists of a thin strip of paper or thin plastic film coated with a pressure-sensitive adhesive.<br>What sets masking tape apart is its unique ability to temporarily protect surfaces during painting, construction, or other projects. Its primary purpose is to create clean, straight lines and prevent paint or other materials from bleeding or smudging onto adjacent areas. It adheres firmly to surfaces such as walls, trim, glass, and metal, providing a reliable barrier against unwanted paint or adhesive seepage.<br>Beyond its use in painting,<a href='https://panamax.co.in/blogs/how-to-choose-the-right-masking-tape-for-your-painting-needs'> masking tape </a> finds applications in various industries and DIY projects. It can be employed for labeling, bundling, light packaging, and even in arts and crafts. Its gentle adhesive properties make it suitable for delicate surfaces, allowing for precise and damage-free masking.      Masking tape's distinguishing feature lies in its easy removal without leaving residue or causing damage, making it a convenient and practical solution for temporary masking needs. Its flexibility and compatibility with a wide range of surfaces make it an essential tool for professionals, hobbyists, and homeowners alike, providing an efficient and clean masking solution for a multitude of projects.",
     description: [
       "A must have product for Carpenters, Painters and Fabricators.",
       "The best product for Paint Masking, Door Painting, Laminate Pasting, House Decoration, Construction Sites and Car Body Repairing and Painting Work efc.",
@@ -276,8 +276,9 @@ const productsData = [
       },
     ],
     metaKeywords:
-      "masking tape price, masking tape price in india, masking tape near me,painters tape,painters masking tape,masking tape manufacturers,masking tape supplier,masking tape manufacturers delhi, masking tape manufacturers in india",
-    metaTitle: "Masking Tape",
+      "adhesive tapes, adhesive tape manufacturer, industrial adhesive tapes, packaging material, adhesive tape manufacturers in india, masking tapes, masking tape manufacturer, protective tape, surface protection tapes, painters tape, industrial tape manufacturer",
+    metaTitle:
+      "Masking Tape Manufacturers, Adhesive tape manufacturers in India",
     metaDescription:
       "Masking tape is a versatile adhesive tape that is designed to be easily applied and removed without leaving behind residue or damaging surfaces.",
   },
@@ -289,7 +290,7 @@ const productsData = [
     productImg: img2,
     image: preMasking,
     about:
-      "Pre-masking tape, also known as pre-taped masking film or pre-taped masking paper, is a specialized type of tape used in various painting and construction applications. It is designed to simplify the process of masking off areas that need protection from paint or other coatings.<br>Unlike traditional masking tapes that come as separate rolls and need to be applied alongside a protective covering, pre-masking tape combines the advantages of both masking tape and protective film/paper. It consists of a strip of masking tape attached to a roll of plastic film or paper, forming a convenient, all-in-one solution.<br>The unique feature of pre-masking tape lies in its efficiency and time-saving properties. By incorporating the tape and protective film/paper together, it eliminates the need for separate steps of applying tape and then covering it with a protective material. This innovative design enables users to mask off areas quickly and effectively, reducing labor and ensuring clean, crisp paint lines.",
+      "Pre-masking tape, also known as pre-taped masking film or pre-taped masking paper, is a specialized type of tape used in various painting and construction applications. It is designed to simplify the process of masking off areas that need protection from paint or other coatings.<br>Unlike traditional masking tapes that come as separate rolls and need to be applied alongside a protective covering, pre-masking tape combines the advantages of both masking tape and protective film/paper. It consists of a strip of masking tape attached to a roll of plastic film or paper, forming a convenient, all-in-one solution.<br>The unique feature of <a href='https://panamax.co.in/blogs/comparing-pre-masking-tape-to-modern-alternatives'>  pre-masking tape </a> lies in its efficiency and time-saving properties. By incorporating the tape and protective film/paper together, it eliminates the need for separate steps of applying tape and then covering it with a protective material. This innovative design enables users to mask off areas quickly and effectively, reducing labor and ensuring clean, crisp paint lines.",
     description: [
       "Pre masking tape is an effortless solution to mask /cover automotive parts and large painted areas in the bus body, to protect against paint/scratches or any other object.",
       "It is a multi purpose masker tape with its application in painting,industrial and automotive.",
@@ -444,7 +445,7 @@ const productsData = [
     productImg: img5,
     image: tbh,
     about:
-      "TBH Acrylic Foam Tape is a high-performance adhesive tape known for its exceptional bonding strength and durability. It is made of a closed-cell acrylic foam with adhesive on both sides, providing a strong bond between two surfaces. The unique composition of the tape allows it to conform to irregularities and create a reliable seal, even in challenging conditions.<br>TBH Acrylic Foam Tape offers several key benefits. First, it provides excellent adhesion to various substrates, including metals, plastics, glass, and painted surfaces. It is resistant to temperature changes, UV radiation, moisture, and chemicals, ensuring long-lasting performance in diverse environments.The tape is commonly used in automotive, construction, and industrial applications. It can be used for attaching exterior trim, mounting emblems and badges, bonding panels, and sealing joints. Its high strength and durability make it ideal for applications that require a secure and long-lasting bond.",
+      "TBH Acrylic Foam Tape is a high-performance adhesive tape known for its exceptional bonding strength and durability. It is made of a closed-cell acrylic foam with adhesive on both sides, providing a strong bond between two surfaces. The unique composition of the tape allows it to conform to irregularities and create a reliable seal, even in challenging conditions.<br><a href='https://panamax.co.in/blogs/how-thb-acrylic-foam-tape-revolutionizes-automotive-bonding'> TBH Acrylic Foam Tape </a> offers several key benefits. First, it provides excellent adhesion to various substrates, including metals, plastics, glass, and painted surfaces. It is resistant to temperature changes, UV radiation, moisture, and chemicals, ensuring long-lasting performance in diverse environments.The tape is commonly used in automotive, construction, and industrial applications. It can be used for attaching exterior trim, mounting emblems and badges, bonding panels, and sealing joints. Its high strength and durability make it ideal for applications that require a secure and long-lasting bond.",
     description: [
       "Mounted frims, emblems & body side moldings are fixed with high performance adhesive fapes & die-cut. Various grades of acrylic foam tapes & PE foam fopes & their dis-cufs are available in various.",
       "Thickness : 0.2mm, 0.4mm, 0.5mm, 0.6mm, 0.8mm, 1.2mm, 1.5mm.",
@@ -602,8 +603,9 @@ const productsData = [
       },
     ],
     metaKeywords:
-      "Thb acrylic foam tape price,Thb acrylic foam tape india,Thb acrylic foam tape near me,Thb acrylic foam tape manufacturers,Thb acrylic foam tape manufacturers delhi,",
-    metaTitle: "THB Acrylic Foam Tape",
+      "acrylic foam tape, acrylic foam tape manufacturers, masking tape manufacturers, crepe paper tape, Body Side Mouldings, masking tape, eva foam tape, fine line masking tape, adhesive tape manufacturers in india, bopp tape manufacturer in delhi, automotive adhesive tape, self adhesive tape manufacturer, industrial adhesive tape, ar sheet, security packaging tape, foam tape manufacturers",
+    metaTitle:
+      "THB Tape, Acrylic Double Sided Tape, Acrylic Foam Tape, Delhi, India",
     metaDescription:
       "TBH Acrylic Foam Tape is a high-performance adhesive tape known for its exceptional bonding strength and durability. It is made of a closed-cell acrylic foam with adhesive on both sides, providing a strong bond between two surfaces.",
   },
@@ -1228,8 +1230,9 @@ const productsData = [
       },
     ],
     metaKeywords:
-      "electrical insulation tape,electrical insulation tape price,Insulation tape price in india,electrical insulation tape manufacturers,electrical insulation tape manufacturers in india,electrical insulation tape near me, electrical insulation tape in delhi,",
-    metaTitle: "Electrical Insulation Tape",
+      "electrical insulation tape,pvc insulation tape, pvc tape, electrical insulation tape price,Insulation tape price in india,electrical insulation tape manufacturers,electrical insulation tape manufacturers in india,electrical insulation tape near me, electrical insulation tape in delhi,",
+    metaTitle:
+      "PVC Tape Self Adhesive Electrical Insulation Tape | Panamax Taps",
     metaDescription:
       "Electrical insulation tape, also known as electrical tape or insulating tape, is a specialized type of adhesive tape designed to provide insulation and protection for electrical wires and components",
   },
@@ -3615,10 +3618,10 @@ const productsData = [
       },
     ],
     metaKeywords:
-      "Craft paper tape price,Craft paper tape near me,Craft paper tape india,Craft paper tape, Craft paper tape manufacturers,Craft paper tape manufacturers in india, Craft paper tape supplier",
-    metaTitle: "Craft Paper Tape",
+      "Kraft paper tape price,Craft paper tape near me,Craft paper tape india,Craft paper tape, Kraft paper tape manufacturers,Kraft paper tape manufacturers in india, Kraft paper tape supplier",
+    metaTitle: "Kraft Paper Tape Manufacturer | Panamax Taps",
     metaDescription:
-      "Craft paper tape, also known as Kraft paper tape, is a type of adhesive tape made from Kraft paper, a durable and eco-friendly material. It is widely used in various crafting, packaging, and sealing applications.",
+      "Kraft paper tape, also known as Kraft paper tape, is a type of adhesive tape made from Kraft paper, a durable and eco-friendly material. It is widely used in various crafting, packaging, and sealing applications.",
   },
   {
     id: 23,
@@ -3628,7 +3631,7 @@ const productsData = [
     productImg: img23,
     image: bopp,
     about:
-      "BOPP packaging tape, also known as Biaxially Oriented Polypropylene tape, is a widely used adhesive tape in packaging and sealing applications. It is made from a thin but strong polypropylene film that has been stretched in both the machine and transverse directions, resulting in improved tensile strength, clarity, and flexibility.<br>BOPP packaging tape offers several key advantages that make it a popular choice in the packaging industry. Firstly, it provides excellent adhesion to a variety of surfaces, including cardboard, paper, plastic, and metal. This ensures secure and reliable sealing of packages, preventing them from opening during transit or storage.<br>The tape's high tensile strength and resistance to tearing make it ideal for sealing boxes or parcels of different sizes and weights. It can withstand the rigors of transportation and handling without compromising the integrity of the seal. Additionally, BOPP packaging tape has good resistance to moisture, ensuring that packages remain protected from environmental factors.",
+      "BOPP packaging tape, also known as Biaxially Oriented Polypropylene tape, is a widely used adhesive tape in packaging and sealing applications. It is made from a thin but strong polypropylene film that has been stretched in both the machine and transverse directions, resulting in improved tensile strength, clarity, and flexibility.<br><a href='https://panamax.co.in/blogs/why-bopp-packaging-tape-is-essential-for-businesses-in-panamax'>BOPP packaging tape</a> offers several key advantages that make it a popular choice in the packaging industry. Firstly, it provides excellent adhesion to a variety of surfaces, including cardboard, paper, plastic, and metal. This ensures secure and reliable sealing of packages, preventing them from opening during transit or storage.<br>The tape's high tensile strength and resistance to tearing make it ideal for sealing boxes or parcels of different sizes and weights. It can withstand the rigors of transportation and handling without compromising the integrity of the seal. Additionally, BOPP packaging tape has good resistance to moisture, ensuring that packages remain protected from environmental factors.",
     description: [
       "Ideal for carton Sealing.",
       "Used for Bundling, Reinforcing, Laminating, Tabbing & Label Protection.",
@@ -3772,7 +3775,7 @@ const productsData = [
     ],
     metaKeywords:
       "bopp packaging tape,Bopp packaging tape price,Bopp packaging tape near me,Bopp packaging tape india,bopp tape manufacturer in india,bopp tape manufacturer near me,",
-    metaTitle: "BOPP Packaging Tape",
+    metaTitle: "BOPP Tape Manufacturer in India",
     metaDescription:
       "BOPP packaging tape, also known as Biaxially Oriented Polypropylene tape, is a widely used adhesive tape in packaging and sealing applications.",
   },
@@ -4730,8 +4733,9 @@ const productsData = [
       },
     ],
     metaKeywords:
-      "Cloth duct tape price,Duct Tape price,duct tape price in india, duct tape in india, duct tape manufacturerin india",
-    metaTitle: "Cloth Duct Tape",
+      "Duct Tape, Duct Tape Manufacturer, Wholesaler and suppliers in delhi, india,Cloth duct tape price,Duct Tape price,duct tape price in india, duct tape in india, duct tape manufacturerin india",
+    metaTitle:
+      "Duct Tape Manufacturer, Wholesaler and suppliers in Delhi, india",
     metaDescription:
       "Cloth duct tape, often referred to as duct tape or gaffer tape, is a versatile adhesive tape commonly used for various applications.",
   },

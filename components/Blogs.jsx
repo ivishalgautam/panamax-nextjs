@@ -1,11 +1,12 @@
 "use client";
+import { blogs } from "@/store/blogs";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect } from "react";
 import { FaPenNib } from "react-icons/fa";
 
-const Blogs = ({ blogs }) => {
+const Blogs = () => {
   const { pathname } = usePathname();
   useEffect(() => {
     // 👇️ scroll to top on page load
@@ -18,34 +19,37 @@ const Blogs = ({ blogs }) => {
         <span className="inline-block italic font-bold text-shadow">Blogs</span>
       </h2>
       <div className="flex-box-center flex-wrap lg:flex-nowrap gap-8 gap-y-12 py-4 px-2 md:px-8">
-        {blogs.map(({ id, title, desc, image, postedOn, path }) => {
-          return (
-            <Link key={id} href={`/blogs/${path}`}>
-              <div className="rounded-xl shadow-md  relative md:pb-0">
-                <figure className="">
-                  <Image
-                    src={image}
-                    alt={title}
-                    className="w-full h-[200px] object-cover object-center rounded-xl"
-                  />
-                </figure>
-                <div className="px-4 py-6 pb-8">
-                  <h2 className="font-bold">
-                    {title.substring(0, 60) + "..."}
-                  </h2>
-                  <small className="text-xs text-primary">
-                    {" "}
-                    <FaPenNib className="inline-block mr-[3px]" /> Admin
-                  </small>
-                  <p className="text-sm">{desc.substring(0, 145) + "..."}</p>
+        {blogs
+          .toReversed()
+          .slice(0, 3)
+          .map(({ id, title, desc, image, postedOn, path }) => {
+            return (
+              <Link key={id} href={`/blogs/${path}`}>
+                <div className="rounded-xl shadow-md  relative md:pb-0">
+                  <figure className="">
+                    <Image
+                      src={image}
+                      alt={title}
+                      className="w-full h-[200px] object-cover object-center rounded-xl"
+                    />
+                  </figure>
+                  <div className="px-4 py-6 pb-8">
+                    <h2 className="font-bold">
+                      {title.substring(0, 60) + "..."}
+                    </h2>
+                    <small className="text-xs text-primary">
+                      {" "}
+                      <FaPenNib className="inline-block mr-[3px]" /> Admin
+                    </small>
+                    <p className="text-sm">{desc.substring(0, 145) + "..."}</p>
+                  </div>
+                  <button className="absolute left-1/2 -translate-x-1/2 -bottom-5 btn-primary">
+                    Read More
+                  </button>
                 </div>
-                <button className="absolute left-1/2 -translate-x-1/2 -bottom-5 btn-primary">
-                  Read More
-                </button>
-              </div>
-            </Link>
-          );
-        })}
+              </Link>
+            );
+          })}
       </div>
     </section>
   );

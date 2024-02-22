@@ -22,16 +22,17 @@ const Products = () => {
         <p className="text-white my-4 text-sm">
           Welcome to Panamax, the leading tape manufacturer offering a diverse
           range of high-quality adhesive tapes for all your needs. Discover our
-          Masking Tape, Pre-Masking Tape, THB Acrylic, Nano-Sil Tape, Mirror
-          Mounting Tape, PMX 5000, Electrical Insulation Tape, Dry Wall Joint
-          Tape, PTFE Thread Seal Tape, Plate Mounting Tape, PTFE Fiber Tape,
-          Structural Glazing Tape, Multi Stick Tape, Anti-Slip Tape, Shuttering
-          Tape, Laminate Fixing Tape, Edge Banding Tape, Roof Repair Tape, Leak
-          Stopper Tape, Surface Protection Tape, Craft Paper Tape, BOPP
-          Packaging Tape, Floor Protection Tape, Wood Guard Tape, Floor Marking
-          Tape, Spacer & Eva, Cloth Duct Tape, and Red Polyster Tape. Trust in
-          our expertise as a tape manufacturer to deliver reliable self-adhesive
-          solutions for all your projects.
+          <Link href="/product/masking-tape"> Masking tape</Link>, Pre-Masking
+          Tape, THB Acrylic, Nano-Sil Tape, Mirror Mounting Tape, PMX 5000,
+          Electrical Insulation Tape, Dry Wall Joint Tape, PTFE Thread Seal
+          Tape, Plate Mounting Tape, PTFE Fiber Tape, Structural Glazing Tape,
+          Multi Stick Tape, Anti-Slip Tape, Shuttering Tape, Laminate Fixing
+          Tape, Edge Banding Tape, Roof Repair Tape, Leak Stopper Tape, Surface
+          Protection Tape, Craft Paper Tape, BOPP Packaging Tape, Floor
+          Protection Tape, Wood Guard Tape, Floor Marking Tape, Spacer & Eva,
+          Cloth Duct Tape, and Red Polyster Tape. Trust in our expertise as a
+          tape manufacturer to deliver reliable self-adhesive solutions for all
+          your projects.
         </p>
         {/* <Link className="btn-secondary-product">View more</Link> */}
       </div>

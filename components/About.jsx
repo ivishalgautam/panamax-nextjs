@@ -23,17 +23,18 @@ const About = () => {
             <span className="inline-block text-primary italic drop-shadow-lg">
               Panamax -
             </span>
-            Your Trusted Tape Manufacturing Partner in Delhi, India
+            Your Trusted Tape Manufacturing Partner in India
           </h1>
           <div className="my-6 text-sm">
             <p className="mt-4">
-              At Panamax, we take pride in being Delhi&apos;s leading tape
-              manufacturer, offering a wide range of adhesive, mask, and
-              self-adhesive tapes. We Provide OEM Solutions. With our focus on
-              precision and innovation, we guarantee top-quality products that
-              meet your needs. Our commitment to customer satisfaction sets us
-              apart, making us the preferred choice for clients all over India.
-              Trust Panamax for excellence in tapes and exceptional service.
+              Panamax Tapes is a prominent tape manufacturing company based in
+              India, renowned for its extensive selection of adhesive, mask, and
+              self-adhesive tapes. Our expertise lies in providing OEM
+              solutions, ensuring precise and innovative products that
+              consistently meet the highest standards of quality. Our unwavering
+              dedication to customer satisfaction distinguishes us, earning the
+              trust of clients nationwide. Rely on Panamax for superior tape
+              solutions and unparalleled service excellence.
             </p>
           </div>
           <Link href="/about" className="btn-primary">

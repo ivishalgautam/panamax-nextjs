@@ -1,6 +1,7 @@
 import React from "react";
 import mapImg from "../public/assets/map.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const Map = () => {
   return (
@@ -13,11 +14,14 @@ const Map = () => {
           Presence
         </h3>
         <p className="text-lg mt-4 ">
-          Panamax Limited is a leading company in the adhesive tape industry,
-          specializing in the manufacturing and distribution of a wide range of
-          tapes in India. With a significant presence throughout the country,
-          Panamax caters to diverse markets and effectively meets various
-          industrial and consumer demands.
+          Panamax Limited is a leading company in the{" "}
+          <Link href="/blogs/mastering-the-art-of-adhesive-tapes-practical-tips-and-techniques-for-effective-usage">
+            adhesive tape
+          </Link>{" "}
+          industry, specializing in the manufacturing and distribution of a wide
+          range of tapes in India. With a significant presence throughout the
+          country, Panamax caters to diverse markets and effectively meets
+          various industrial and consumer demands.
         </p>
         <p className="text-lg mt-4 ">
           Their product line includes adhesive tape, mask tape, and

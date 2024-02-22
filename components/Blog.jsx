@@ -74,11 +74,11 @@ export default function Blog({ slug }) {
             <div>
               {brief.map((item, key) => {
                 return (
-                  <div key={key} className="mt-[20px]">
+                  <div key={key} className="mt-[20px] space-y-2">
                     <h5 className="text-lg border-l-[2px] pl-[5px] font-[600]  border-primary">
                       {item.name}
                     </h5>
-                    <p className="">{item.value}</p>
+                    <p dangerouslySetInnerHTML={{ __html: item.value }} />
                   </div>
                 );
               })}
@@ -108,25 +108,32 @@ export default function Blog({ slug }) {
               recent articles
             </h2>
             <div className="flex-box-col-center gap-3">
-              {blogs.map((e) => {
-                return (
-                  <Link key={e.id} href={`/blogs/${e.path}`} className="w-full">
-                    <div className="flex-box-start gap-3 border rounded-md w-full p-3 ">
-                      <Image
-                        src={e.image}
-                        alt=""
-                        className="w-[50px] h-[50px] object-cover object-right rounded-[5px] shadow"
-                      />
-                      <div className="text-sm">
-                        <h2 className="text-ellipsis overflow-hidden">
-                          {e.title}
-                        </h2>
-                        <p>{e.createOn}</p>
+              {blogs
+                .toReversed()
+                .slice(0, 10)
+                .map((e) => {
+                  return (
+                    <Link
+                      key={e.id}
+                      href={`/blogs/${e.path}`}
+                      className="w-full"
+                    >
+                      <div className="flex-box-start gap-3 border rounded-md w-full p-3 ">
+                        <Image
+                          src={e.image}
+                          alt=""
+                          className="w-[50px] h-[50px] object-cover object-right rounded-[5px] shadow"
+                        />
+                        <div className="text-sm">
+                          <h2 className="text-ellipsis overflow-hidden">
+                            {e.title}
+                          </h2>
+                          <p>{e.createOn}</p>
+                        </div>
                       </div>
-                    </div>
-                  </Link>
-                );
-              })}
+                    </Link>
+                  );
+                })}
             </div>
           </div>
         </div>
