@@ -3486,13 +3486,13 @@ const productsData = [
   },
   {
     id: 22,
-    title: "CRAFT PAPER TAPE",
-    name: "Craft paper tape",
+    title: "KRAFT PAPER TAPE",
+    name: "Kraft paper tape",
     path: "craft-paper-tape",
     productImg: img22,
     image: craftPaper,
     about:
-      "Craft paper tape, also known as Kraft paper tape, is a type of adhesive tape made from Kraft paper, a durable and eco-friendly material. It is widely used in various crafting, packaging, and sealing applications. Craft paper tape is known for its strength, versatility, and natural aesthetic appeal. The tape is typically brown or tan in color, giving it a rustic and vintage look.<br>Craft paper tape is designed with a strong adhesive backing that provides reliable adhesion to a variety of surfaces. It offers excellent tear resistance and can withstand moderate stress and handling. The tape's unique composition allows it to conform to different shapes and contours, making it ideal for wrapping, sealing, and bundling objects.<br>One of the key features of craft paper tape is its eco-friendly nature. It is made from renewable and recyclable Kraft paper, making it a sustainable choice for environmentally conscious individuals. The tape is free from harmful chemicals and synthetic materials, further adding to its eco-friendly credentials.Craft paper tape offers several benefits in various applications. It provides secure and reliable sealing for packages, ensuring that contents are protected during transit. The tape's adhesive properties allow it to bond well to cardboard, paper, and other porous surfaces commonly used in packaging.",
+      "Kraft paper tape, also known as Kraft paper tape, is a type of adhesive tape made from Kraft paper, a durable and eco-friendly material. It is widely used in various crafting, packaging, and sealing applications. Kraft paper tape is known for its strength, versatility, and natural aesthetic appeal. The tape is typically brown or tan in color, giving it a rustic and vintage look.<br>Kraft paper tape is designed with a strong adhesive backing that provides reliable adhesion to a variety of surfaces. It offers excellent tear resistance and can withstand moderate stress and handling. The tape's unique composition allows it to conform to different shapes and contours, making it ideal for wrapping, sealing, and bundling objects.<br>One of the key features of kraft paper tape is its eco-friendly nature. It is made from renewable and recyclable Kraft paper, making it a sustainable choice for environmentally conscious individuals. The tape is free from harmful chemicals and synthetic materials, further adding to its eco-friendly credentials.Kraft paper tape offers several benefits in various applications. It provides secure and reliable sealing for packages, ensuring that contents are protected during transit. The tape's adhesive properties allow it to bond well to cardboard, paper, and other porous surfaces commonly used in packaging.",
     description: [
       "Eco-friendly",
       "Recyclable",
@@ -3513,7 +3513,7 @@ const productsData = [
       {
         name: "Easy Application",
         about:
-          " It can be torn by hand, eliminating the need for additional tools like scissors. ",
+          "It can be torn by hand, eliminating the need for additional tools like scissors. ",
       },
       {
         name: "Adhesive Properties",
@@ -3523,12 +3523,12 @@ const productsData = [
       {
         name: "Aesthetic Appeal",
         about:
-          " Its natural brown or tan color gives a vintage and handmade look, making it popular for crafts, gift wrapping, and DIY projects.",
+          "Its natural brown or tan color gives a vintage and handmade look, making it popular for crafts, gift wrapping, and DIY projects.",
       },
       {
         name: "Residue-Free Removal",
         about:
-          "When it comes time to remove craft paper tape, it does not leave behind any sticky residue on surfaces. This makes it convenient for temporary applications or when repositioning is needed.",
+          "When it comes time to remove kraft paper tape, it does not leave behind any sticky residue on surfaces. This makes it convenient for temporary applications or when repositioning is needed.",
       },
       {
         name: "Versatility",

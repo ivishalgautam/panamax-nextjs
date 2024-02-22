@@ -26,6 +26,22 @@ export async function generateMetadata({ params: { slug } }) {
     return {
       title: blog[0]?.title,
       description: blog[0]?.desc,
+      alternates: {
+        canonical: `https://panamax.co.in/blogs/${blog[0]?.path}`,
+      },
+      openGraph: {
+        title: product?.[0]?.title,
+        description: product?.[0]?.desc,
+        images: [
+          {
+            url: `https://panamax.co.in${blog?.[0]?.image?.src}`,
+            width: 500,
+            height: 350,
+            alt: blog?.[0]?.title,
+          },
+        ],
+        type: "website",
+      },
     };
   } catch (error) {
     console.log(error);
