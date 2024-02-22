@@ -30,8 +30,8 @@ export async function generateMetadata({ params: { slug } }) {
         canonical: `https://panamax.co.in/blogs/${blog[0]?.path}`,
       },
       openGraph: {
-        title: product?.[0]?.title,
-        description: product?.[0]?.desc,
+        title: blog?.[0]?.title,
+        description: blog?.[0]?.desc,
         images: [
           {
             url: `https://panamax.co.in${blog?.[0]?.image?.src}`,
