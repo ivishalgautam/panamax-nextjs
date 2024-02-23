@@ -3488,7 +3488,7 @@ const productsData = [
     id: 22,
     title: "KRAFT PAPER TAPE",
     name: "Kraft paper tape",
-    path: "craft-paper-tape",
+    path: "kraft-paper-tape",
     productImg: img22,
     image: craftPaper,
     about:
