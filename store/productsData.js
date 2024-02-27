@@ -152,7 +152,7 @@ const productsData = [
       {
         name: "Adhesive Strength",
         about:
-          "Red polyester tape is known for its eye-catching and vibrant red color. The bright hue provides high visibility, making it easily distinguishable and noticeable in various applications. The vivid red color is often utilized for color coding purposes or to draw attention to specific areas or objects.",
+          "Our masking tape's exceptional adhesive strength guarantees firm adhesion to surfaces, offering reliable protection during painting, crafting, and DIY projects. It ensures clean, crisp lines without residue or damage upon removal.",
       },
       {
         name: "Clean Removal",
