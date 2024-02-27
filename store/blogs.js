@@ -1751,7 +1751,7 @@ export const blogs = [
       {
         name: "Conclusion",
         value:
-          "floor marking tape is a simple yet powerful tool for enhancing workplace safety. From guiding traffic to highlighting hazards and promoting organization, its benefits are multifaceted and far-reaching. As a Tape Manufacturer in India committed to quality and safety, Panamax Tape provides innovative floor marking solutions that empower businesses to create safer work environments for their employees. By investing in floor marking tape, businesses not only safeguard their workforce but also demonstrate a commitment to prioritizing safety above all else. After all, in the journey towards a safer workplace, every step counts, especially when guided by the clarity of floor marking tape.",
+          "floor marking tape is a simple yet powerful tool for enhancing workplace safety. From guiding traffic to highlighting hazards and promoting organization, its benefits are multifaceted and far-reaching. As a  <a href='https://panamax.co.in/' class='text-primary'>Tape Manufacturer in India</a> committed to quality and safety, Panamax Tape provides innovative floor marking solutions that empower businesses to create safer work environments for their employees. By investing in floor marking tape, businesses not only safeguard their workforce but also demonstrate a commitment to prioritizing safety above all else. After all, in the journey towards a safer workplace, every step counts, especially when guided by the clarity of floor marking tape.",
       },
     ],
     image: blog31,
@@ -1767,7 +1767,7 @@ export const blogs = [
   {
     id: 32,
     title: "Creative Uses of Duct Tape: From DIY Projects to Repairs",
-    desc: "In the realm of DIY enthusiasts and handy individuals, one tool reigns supreme – duct tape. This humble yet versatile adhesive has evolved far beyond its conventional uses, transcending mere repairs to become a cornerstone of creative projects and ingenious solutions. Join us as we explore the boundless potential of duct tape, from its origins to the innovative ways it's utilized today.",
+    desc: "In the realm of DIY enthusiasts and handy individuals, one tool reigns supreme – duct tape. This humble yet versatile adhesive has evolved far beyond its conventional uses, transcending mere repairs to become a cornerstone of creative projects and ingenious solutions. Join us as we explore the boundless potential of <a href='https://panamax.co.in/product/cloth-duct-tape' class='text-primary'>duct tape</a> , from its origins to the innovative ways it's utilized today.",
     path: "creative-uses-of-duct-tape-from-diy-projects-to-repairs",
     brief: [
       {
@@ -1808,7 +1808,7 @@ export const blogs = [
       {
         name: "Conclusion",
         value:
-          "As we reflect on the remarkable journey of duct tape, from its wartime origins to its contemporary prominence, one thing remains clear – its unparalleled versatility and utility. Whether in the hands of DIY enthusiasts, repair experts, or innovative thinkers, duct tape continues to captivate and inspire with its endless potential. As a leading tape manufacturer in India, Panamax Tape proudly contributes to this legacy, providing quality solutions for diverse needs. So, the next time you reach for a roll of duct tape, remember the countless possibilities it holds – from creative endeavors to essential repairs, duct tape is truly a marvel of modern ingenuity.",
+          "As we reflect on the remarkable journey of duct tape, from its wartime origins to its contemporary prominence, one thing remains clear – its unparalleled versatility and utility. Whether in the hands of DIY enthusiasts, repair experts, or innovative thinkers, duct tape continues to captivate and inspire with its endless potential. As a leading <a href='https://panamax.co.in/' class='text-primary'> tape manufacturer in India</a>, Panamax Tape proudly contributes to this legacy, providing quality solutions for diverse needs. So, the next time you reach for a roll of duct tape, remember the countless possibilities it holds – from creative endeavors to essential repairs, duct tape is truly a marvel of modern ingenuity.",
       },
     ],
     image: blog32,

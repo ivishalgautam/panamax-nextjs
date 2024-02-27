@@ -69,7 +69,10 @@ export default function Blog({ slug }) {
                 className="rounded-xl object-cover object-center w-full h-full"
               />
             </figure>
-            <p className="mt-4 mb-8">{desc}</p>
+            <p
+              className="mt-4 mb-8"
+              dangerouslySetInnerHTML={{ __html: desc }}
+            />
 
             <div>
               {brief.map((item, key) => {
