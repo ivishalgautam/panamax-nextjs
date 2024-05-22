@@ -77,7 +77,11 @@ const Footer = () => {
             </figure>
             <div className="">
               <p className="text-xs text-gray-500">Call us at:</p>
-              <h2 className="font-bold text-sm">18009992049</h2>
+              <h2 className="font-bold text-sm">
+                +91 9267989089,
+                <br />
+                1800 999 2049
+              </h2>
             </div>
           </div>
 
