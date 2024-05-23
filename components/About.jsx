@@ -27,7 +27,7 @@ const About = () => {
           </h1>
           <div className="my-6 text-sm">
             <p className="mt-4">
-              Panamax Tapes is a prominent tape manufacturing company based in
+              Panamax Limited is a prominent tape manufacturing company based in
               India, renowned for its extensive selection of adhesive, mask, and
               self-adhesive tapes. Our expertise lies in providing OEM
               solutions, ensuring precise and innovative products that
