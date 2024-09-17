@@ -14,7 +14,7 @@ const Map = () => {
           Presence
         </h3>
         <p className="text-lg mt-4 ">
-          Panamax Limited is a leading company in the{" "}
+          Panamax Tapes is a leading company in the{" "}
           <Link href="/blogs/mastering-the-art-of-adhesive-tapes-practical-tips-and-techniques-for-effective-usage">
             adhesive tape
           </Link>{" "}
