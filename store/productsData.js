@@ -277,8 +277,7 @@ const productsData = [
     ],
     metaKeywords:
       "adhesive tapes, adhesive tape manufacturer, industrial adhesive tapes, packaging material, adhesive tape manufacturers in india, masking tapes, masking tape manufacturer, protective tape, surface protection tapes, painters tape, industrial tape manufacturer",
-    metaTitle:
-      "Masking Tape Manufacturers, Adhesive tape manufacturers in India",
+    metaTitle: "Masking Tape",
     metaDescription:
       "Masking tape is a versatile adhesive tape that is designed to be easily applied and removed without leaving behind residue or damaging surfaces.",
   },
@@ -3619,7 +3618,7 @@ const productsData = [
     ],
     metaKeywords:
       "Kraft paper tape price,Craft paper tape near me,Craft paper tape india,Craft paper tape, Kraft paper tape manufacturers,Kraft paper tape manufacturers in india, Kraft paper tape supplier",
-    metaTitle: "Kraft Paper Tape Manufacturer | Panamax Taps",
+    metaTitle: "Kraft Paper Tape",
     metaDescription:
       "Kraft paper tape, also known as Kraft paper tape, is a type of adhesive tape made from Kraft paper, a durable and eco-friendly material. It is widely used in various crafting, packaging, and sealing applications.",
   },
@@ -3775,7 +3774,7 @@ const productsData = [
     ],
     metaKeywords:
       "bopp packaging tape,Bopp packaging tape price,Bopp packaging tape near me,Bopp packaging tape india,bopp tape manufacturer in india,bopp tape manufacturer near me,",
-    metaTitle: "BOPP Tape Manufacturer in India",
+    metaTitle: "BOPP Packaging Tape",
     metaDescription:
       "BOPP packaging tape, also known as Biaxially Oriented Polypropylene tape, is a widely used adhesive tape in packaging and sealing applications.",
   },
