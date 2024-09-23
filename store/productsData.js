@@ -1580,8 +1580,8 @@ const productsData = [
     title: "Bag Sealing Tape",
     name: "Bag Sealing Tape",
     path: "bag-sealing-tape",
-    productImg: img32,
-    image: img32,
+    productImg: img33,
+    image: img33,
     about:
       "Packseal Tape, also known as Bag Sealing Tape, is a specialized adhesive tape used for sealing bags, pouches, and packages. It is designed to provide a secure and reliable seal, ensuring the contents of the bag are protected from moisture, dust, and tampering.<br>This tape is typically made from a durable and flexible material such as polypropylene or polyethylene, which offers excellent adhesion to various bag surfaces. It features a strong adhesive backing on one side that adheres firmly to the bag, creating a tight seal that prevents the bag from opening or spilling its contents.<br>The unique properties of Packseal Tape make it suitable for a wide range of applications, including packaging and sealing of food products, pharmaceuticals, electronics, hardware, and various industrial goods. It is commonly used in retail stores, warehouses, manufacturing facilities, and shipping centers to ensure the integrity and security of packaged items during storage, transportation, and display.",
     description: [
