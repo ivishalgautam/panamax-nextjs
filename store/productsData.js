@@ -133,6 +133,8 @@ import img27 from "../public/assets/Product-For-inner-Page/spacer-eva.jpg";
 import img28 from "../public/assets/Product-For-inner-Page/aluminium-foil.jpg";
 import img29 from "../public/assets/Product-For-inner-Page/cloth-duct.jpg";
 import img30 from "../public/assets/Product-For-inner-Page/red-polyster.jpg";
+import img31 from "../public/assets/Product-For-inner-Page/tissue-tape.jpg";
+import img32 from "../public/assets/Product-For-inner-Page/reinforcement-tape.jpg";
 
 const productsData = [
   {
@@ -1572,146 +1574,151 @@ const productsData = [
     metaDescription:
       "PTFE thread seal tape, also known as plumber's tape or Teflon tape, is a specialized type of adhesive tape used in plumbing and pipe fitting applications.",
   },
-  // img
-  // {
-  //   id: 10,
-  //   title: "PACKSEAL TAPE (BAG SEALING TAPE)",
-  //   name: "Packseal tape",
-  //   path: "packseal-tape",
-  //   productImg: "",
-  //   image: "",
-  //   about:
-  //     "Packseal Tape, also known as Bag Sealing Tape, is a specialized adhesive tape used for sealing bags, pouches, and packages. It is designed to provide a secure and reliable seal, ensuring the contents of the bag are protected from moisture, dust, and tampering.<br>This tape is typically made from a durable and flexible material such as polypropylene or polyethylene, which offers excellent adhesion to various bag surfaces. It features a strong adhesive backing on one side that adheres firmly to the bag, creating a tight seal that prevents the bag from opening or spilling its contents.<br>The unique properties of Packseal Tape make it suitable for a wide range of applications, including packaging and sealing of food products, pharmaceuticals, electronics, hardware, and various industrial goods. It is commonly used in retail stores, warehouses, manufacturing facilities, and shipping centers to ensure the integrity and security of packaged items during storage, transportation, and display.",
-  //   description: [
-  //     "Biggest Range of Bag Sealing Tapes.",
-  //     "Complete Solution for your Packaging Requirements.",
-  //     "We provide customized bag sealing fopes with Logo and Brand Name.",
-  //     "Many ranges are ROHS Compliant and Environment Friendly.",
-  //     "An ISO 9001-2008 Certified Product.",
-  //   ],
-  //   features: [
-  //     {
-  //       name: "Strong Adhesion",
-  //       about:
-  //         "Packseal Tape is designed with a strong adhesive backing that provides excellent adhesion to various bag surfaces. It securely bonds to the bag material, creating a reliable seal that keeps the contents protected.",
-  //     },
-  //     {
-  //       name: "Moisture Resistance",
-  //       about:
-  //         "One of the key features of Packseal Tape is its moisture resistance. It forms a barrier against moisture, preventing water or other liquids from entering the bag. This feature is particularly important for packaging items that are sensitive to moisture, such as food products or electronics.",
-  //     },
-  //     {
-  //       name: "Tamper-Evident",
-  //       about:
-  //         "Packseal Tape is designed to provide tamper-evident properties. Once applied, it creates a visible seal that shows if the bag has been tampered with or opened. This feature adds an extra layer of security and ensures the integrity of the packaged items.",
-  //     },
-  //     {
-  //       name: "Flexibility",
-  //       about:
-  //         "The tape is made from flexible materials like polypropylene or polyethylene, allowing it to conform to the shape of the bag or pouch. This flexibility ensures a secure seal even on irregular or uneven surfaces.",
-  //     },
-  //     {
-  //       name: "Flexible and Conformable",
-  //       about:
-  //         "These tapes are flexible and easily conform to the shape of threaded fittings, ensuring a tight and secure seal. Their flexibility enables them to adapt to various pipe sizes and irregularities, providing consistent sealing performance.",
-  //     },
-  //     {
-  //       name: "Easy Application",
-  //       about:
-  //         "Packseal Tape is easy to apply, either by hand or with the help of a bag-sealing machine. It offers smooth and consistent unwinding from the roll, enabling quick and efficient sealing.",
-  //     },
-  //     {
-  //       name: "Versatility",
-  //       about:
-  //         "Packseal Tape is suitable for a wide range of bag sealing applications. It can be used for sealing food products, pharmaceuticals, hardware, electronics, and various industrial goods. Its versatility makes it a popular choice in retail, manufacturing, and shipping industries.",
-  //     },
-  //   ],
-  //   applications: [
-  //     {
-  //       name: "Food Packaging",
-  //       about:
-  //         "Packseal Tape is commonly used in the food industry for sealing bags, pouches, and containers containing perishable and non-perishable food items. ",
-  //       icon: food_processing,
-  //     },
-  //     {
-  //       name: "Household Storage",
-  //       about:
-  //         "It is an ideal choice for sealing bags used for storing and organizing various household items such as clothing, bedding, toys, and seasonal decorations. ",
-  //       icon: automotive,
-  //     },
-  //     {
-  //       name: "Travel and Outdoor Activities",
-  //       about:
-  //         "It is handy for sealing bags or pouches used during travel or outdoor activities.",
-  //       icon: color_coding,
-  //     },
-  //     {
-  //       name: "Arts and Crafts",
-  //       about:
-  //         "It is commonly used for sealing and protecting artwork, mounting photographs, and creating custom packaging for handmade products.",
-  //       icon: arts,
-  //     },
-  //     {
-  //       name: "Shipping and Mailing",
-  //       about:
-  //         "It is extensively used for sealing packages, envelopes, and boxes for shipping and mailing purposes.",
-  //       icon: production_design,
-  //     },
-  //     {
-  //       name: "Industrial and Warehouse Operations",
-  //       about:
-  //         "It is utilized in industrial and warehouse settings for sealing bags, pallets, and containers holding various goods and materials.",
-  //       icon: warehouse,
-  //     },
-  //     {
-  //       name: "Retail and Packaging",
-  //       about:
-  //         " It is widely used in retail environments for sealing product packaging, gift bags, and promotional materials. ",
-  //       icon: packagingShipping,
-  //     },
-  //     {
-  //       name: "Medical and Healthcare",
-  //       about:
-  //         "It is employed in medical and healthcare facilities for sealing specimen bags, medical supplies, and sterilization packaging. ",
-  //       icon: medicalEquip,
-  //     },
-  //   ],
-  // videoPath:"",
-  //   industrialUses: [
-  //     {
-  //       name: "Food Packaging",
-  //       icon: food_processing,
-  //     },
-  //     {
-  //       name: "Pharmaceutical Packaging",
-  //       icon: automotive,
-  //     },
-  //     {
-  //       name: "Retail and E-commerce",
-  //       icon: retail,
-  //     },
-  //     {
-  //       name: "Manufacturing and Industrial Packaging",
-  //       icon: electronicManufacturing,
-  //     },
-  //     {
-  //       name: "Agricultural and Horticultural Packaging",
-  //       icon: gardening,
-  //     },
-  //     {
-  //       name: "Chemical and Hazardous Material Packaging",
-  //       icon: hazardous,
-  //     },
-  //     {
-  //       name: "Logistics and Shipping",
-  //       icon: marine,
-  //     },
-  //     {
-  //       name: "Scientific and Laboratory Equipment",
-  //       icon: laboratary,
-  //     },
-  //   ],
-  // },
+  //! add image
+  {
+    id: 10,
+    title: "Bag Sealing Tape",
+    name: "Bag Sealing Tape",
+    path: "bag-sealing-tape",
+    productImg: "",
+    image: "",
+    about:
+      "Packseal Tape, also known as Bag Sealing Tape, is a specialized adhesive tape used for sealing bags, pouches, and packages. It is designed to provide a secure and reliable seal, ensuring the contents of the bag are protected from moisture, dust, and tampering.<br>This tape is typically made from a durable and flexible material such as polypropylene or polyethylene, which offers excellent adhesion to various bag surfaces. It features a strong adhesive backing on one side that adheres firmly to the bag, creating a tight seal that prevents the bag from opening or spilling its contents.<br>The unique properties of Packseal Tape make it suitable for a wide range of applications, including packaging and sealing of food products, pharmaceuticals, electronics, hardware, and various industrial goods. It is commonly used in retail stores, warehouses, manufacturing facilities, and shipping centers to ensure the integrity and security of packaged items during storage, transportation, and display.",
+    description: [
+      "Biggest Range of Bag Sealing Tapes.",
+      "Complete Solution for your Packaging Requirements.",
+      "We provide customized bag sealing fopes with Logo and Brand Name.",
+      "Many ranges are ROHS Compliant and Environment Friendly.",
+      "An ISO 9001-2008 Certified Product.",
+    ],
+    features: [
+      {
+        name: "Strong Adhesion",
+        about:
+          "Packseal Tape is designed with a strong adhesive backing that provides excellent adhesion to various bag surfaces. It securely bonds to the bag material, creating a reliable seal that keeps the contents protected.",
+      },
+      {
+        name: "Moisture Resistance",
+        about:
+          "One of the key features of Packseal Tape is its moisture resistance. It forms a barrier against moisture, preventing water or other liquids from entering the bag. This feature is particularly important for packaging items that are sensitive to moisture, such as food products or electronics.",
+      },
+      {
+        name: "Tamper-Evident",
+        about:
+          "Packseal Tape is designed to provide tamper-evident properties. Once applied, it creates a visible seal that shows if the bag has been tampered with or opened. This feature adds an extra layer of security and ensures the integrity of the packaged items.",
+      },
+      {
+        name: "Flexibility",
+        about:
+          "The tape is made from flexible materials like polypropylene or polyethylene, allowing it to conform to the shape of the bag or pouch. This flexibility ensures a secure seal even on irregular or uneven surfaces.",
+      },
+      {
+        name: "Flexible and Conformable",
+        about:
+          "These tapes are flexible and easily conform to the shape of threaded fittings, ensuring a tight and secure seal. Their flexibility enables them to adapt to various pipe sizes and irregularities, providing consistent sealing performance.",
+      },
+      {
+        name: "Easy Application",
+        about:
+          "Packseal Tape is easy to apply, either by hand or with the help of a bag-sealing machine. It offers smooth and consistent unwinding from the roll, enabling quick and efficient sealing.",
+      },
+      {
+        name: "Versatility",
+        about:
+          "Packseal Tape is suitable for a wide range of bag sealing applications. It can be used for sealing food products, pharmaceuticals, hardware, electronics, and various industrial goods. Its versatility makes it a popular choice in retail, manufacturing, and shipping industries.",
+      },
+    ],
+    applications: [
+      {
+        name: "Food Packaging",
+        about:
+          "Packseal Tape is commonly used in the food industry for sealing bags, pouches, and containers containing perishable and non-perishable food items. ",
+        icon: food_processing,
+      },
+      {
+        name: "Household Storage",
+        about:
+          "It is an ideal choice for sealing bags used for storing and organizing various household items such as clothing, bedding, toys, and seasonal decorations. ",
+        icon: automotive,
+      },
+      {
+        name: "Travel and Outdoor Activities",
+        about:
+          "It is handy for sealing bags or pouches used during travel or outdoor activities.",
+        icon: color_coding,
+      },
+      {
+        name: "Arts and Crafts",
+        about:
+          "It is commonly used for sealing and protecting artwork, mounting photographs, and creating custom packaging for handmade products.",
+        icon: arts,
+      },
+      {
+        name: "Shipping and Mailing",
+        about:
+          "It is extensively used for sealing packages, envelopes, and boxes for shipping and mailing purposes.",
+        icon: production_design,
+      },
+      {
+        name: "Industrial and Warehouse Operations",
+        about:
+          "It is utilized in industrial and warehouse settings for sealing bags, pallets, and containers holding various goods and materials.",
+        icon: warehouse,
+      },
+      {
+        name: "Retail and Packaging",
+        about:
+          " It is widely used in retail environments for sealing product packaging, gift bags, and promotional materials. ",
+        icon: packagingShipping,
+      },
+      {
+        name: "Medical and Healthcare",
+        about:
+          "It is employed in medical and healthcare facilities for sealing specimen bags, medical supplies, and sterilization packaging. ",
+        icon: medicalEquip,
+      },
+    ],
+    videoPath: "",
+    industrialUses: [
+      {
+        name: "Food Packaging",
+        icon: food_processing,
+      },
+      {
+        name: "Pharmaceutical Packaging",
+        icon: automotive,
+      },
+      {
+        name: "Retail and E-commerce",
+        icon: retail,
+      },
+      {
+        name: "Manufacturing and Industrial Packaging",
+        icon: electronicManufacturing,
+      },
+      {
+        name: "Agricultural and Horticultural Packaging",
+        icon: gardening,
+      },
+      {
+        name: "Chemical and Hazardous Material Packaging",
+        icon: hazardous,
+      },
+      {
+        name: "Logistics and Shipping",
+        icon: marine,
+      },
+      {
+        name: "Scientific and Laboratory Equipment",
+        icon: laboratary,
+      },
+    ],
+    metaKeywords:
+      "Bag Sealing Tape, Bag Sealing Tape Manufacturer,Bag Sealing Tape Manufacturer,Supplier,Exporter,Bag sealing tape near me, Bag sealing tape india,Bag sealing tape price",
+    metaTitle: "Bag Sealing Tape",
+    metaDescription:
+      "Buy high-quality Bag Sealing Tape from Panamax Tapes, perfect for securely sealing bags in various industries. Durable, reliable, and easy to use for all packaging needs.",
+  },
   {
     id: 11,
     title: "PLATE MOUNTING TAPE FOR FLEXO-GRAPHIC PRINTING",
@@ -4438,171 +4445,175 @@ const productsData = [
     metaDescription:
       "Spacer and EVA (Ethylene-Vinyl Acetate) foam tape is a type of adhesive tape that combines the properties of both a spacer and a cushioning material.",
   },
-  // img
-  // {
-  //   id: 28,
-  //   title: "ALUMINIUM FOIL TAPE",
-  //   name: "Aluminium foil tape",
-  //   path: "aluminium-foil-tape",
-  //   productImg: img28,
-  //   // image: aluminiumFoil,
-  //   about:
-  //     "Aluminium foil tape is a versatile and durable tape that finds a wide range of applications due to its unique characteristics. The tape consists of a layer of aluminum foil, which provides excellent heat resistance, electrical conductivity, and reflects light and heat. This makes it highly suitable for various industries and applications.<br>The adhesive backing on the tape allows it to adhere to various surfaces, including metals, plastics, and insulation materials. The adhesive is typically strong and capable of providing a secure bond, ensuring that the tape stays in place even under challenging conditions.<br>One of the primary uses of aluminium foil tape is in HVAC (Heating, Ventilation, and Air Conditioning) systems. It is commonly used for sealing joints, seams, and connections in air ducts. The tape's heat resistance and ability to maintain an airtight seal make it ideal for preventing air leaks and improving energy efficiency in HVAC systems.",
-  //   description: [
-  //     "For roofing, water proofing, patching and repair.",
-  //     "For any job requiring tough waterproof protection.",
-  //     "Reflects heat to keep interiors cool and reduces utility bills.",
-  //     "Various sizes, thickness and adhesive properties available as per your needs.",
-  //   ],
-  //   features: [
-  //     {
-  //       name: "Heat Resistance",
-  //       about:
-  //         " It reflects both light and heat, making it useful for applications where heat insulation or radiation reflection is required. ",
-  //     },
-  //     {
-  //       name: "Electrical Conductivity",
-  //       about:
-  //         "It allows for efficient grounding and can be used for electrical repairs or applications that require conductivity, such as shielding and electromagnetic interference (EMI) protection.",
-  //     },
-  //     {
-  //       name: "Moisture and Chemical Resistance",
-  //       about:
-  //         "The aluminium foil backing of the tape provides resistance to moisture, humidity, and some chemicals. This makes it suitable for sealing applications in areas exposed to moisture or where chemical resistance is required.",
-  //     },
-  //     {
-  //       name: "Strong Adhesive Properties",
-  //       about:
-  //         "The adhesive is designed to provide long-lasting adhesion and withstand temperature fluctuations, ensuring that the tape remains firmly in place.",
-  //     },
-  //     {
-  //       name: "Flexibility and Conformability",
-  //       about:
-  //         "Aluminium foil tape is highly flexible and conformable, allowing it to adhere smoothly to irregular surfaces, corners, and curves..",
-  //     },
-  //     {
-  //       name: "Easy Application and Handling",
-  //       about:
-  //         "It can be easily cut to the desired length, and the backing material is typically durable and tear-resistant. ",
-  //     },
-  //     {
-  //       name: "Compatibility with Various Surfaces",
-  //       about:
-  //         "Its versatility allows it to be used in different industries and applications where bonding to various substrates is required.",
-  //     },
-  //     {
-  //       name: "Flame Resistance",
-  //       about:
-  //         "Aluminium foil tape often exhibits flame resistance properties, which adds an extra layer of safety in applications where fire protection is crucial.",
-  //     },
-  //     {
-  //       name: "Longevity and Durability",
-  //       about:
-  //         "It is designed to withstand challenging conditions, such as temperature fluctuations, moisture, and UV exposure. This ensures that the tape maintains its effectiveness and adhesion over an extended period, reducing the need for frequent replacements.",
-  //     },
-  //   ],
-  //   applications: [
-  //     {
-  //       name: "HVAC Duct Sealing",
-  //       about:
-  //         "It helps prevent air leakage, ensuring efficient airflow and maintaining temperature consistency in heating and cooling systems.",
-  //       icon: hvac,
-  //     },
-  //     {
-  //       name: "Pipe Insulation",
-  //       about:
-  //         " It is used to seal and secure insulation materials around pipes, preventing heat loss or gain and providing protection against moisture. ",
-  //       icon: pipes,
-  //     },
-  //     {
-  //       name: "Radiant Barrier Installation",
-  //       about:
-  //         "The tape is used to seal and secure the edges of the radiant barrier sheets, ensuring a complete and effective barrier installation.",
-  //       icon: sports,
-  //     },
-  //     {
-  //       name: "Electrical Wiring and Repairs",
-  //       about:
-  //         " It can be used for repairing damaged electrical wires, providing a temporary or permanent solution.",
-  //       icon: electric,
-  //     },
-  //     {
-  //       name: "EMI/RFI Shielding",
-  //       about:
-  //         "It is used to create a protective barrier around sensitive electronic components, cables, or devices to prevent interference and maintain signal integrity.",
-  //       icon: arts,
-  //     },
-  //     {
-  //       name: "Sealing and Repairing Reflective Insulation",
-  //       about:
-  //         "It is used to seal gaps, seams, and joints in these reflective insulation systems, ensuring maximum thermal efficiency and preventing the ingress of moisture or air.",
-  //       icon: repairing,
-  //     },
-  //     {
-  //       name: "Automotive Repairs",
-  //       about:
-  //         " It is utilized for various repair applications. It can be used for sealing exhaust systems, repairing damaged hoses or pipes, or securing insulation materials.",
-  //       icon: automotive,
-  //     },
-  //     {
-  //       name: "Packaging and Wrapping",
-  //       about:
-  //         "It is used for sealing packages, securing boxes, and providing an extra layer of protection for goods during transportation or storage.",
-  //       icon: packagingShipping,
-  //     },
-  //     {
-  //       name: "Crafts and DIY Projects",
-  //       about:
-  //         "It can be used for decorative purposes, such as creating shiny accents or reflective surfaces. ",
-  //       icon: diy,
-  //     },
-  //     {
-  //       name: "Sealing and Repairing Metal Surfaces",
-  //       about:
-  //         "It can be used to patch minor damages or leaks in metal pipes, tanks, or equipment.",
-  //       icon: repairing,
-  //     },
-  //   ],
-  // videoPath:"",
-  //   industrialUses: [
-  //     {
-  //       name: "Automotive industry",
-  //       icon: automotive,
-  //     },
-  //     {
-  //       name: "Construction and building",
-  //       icon: construction,
-  //     },
-  //     {
-  //       name: "Electronics and electrical",
-  //       icon: electric,
-  //     },
-  //     {
-  //       name: "Appliances and white goods",
-  //       icon: industrial_equipment,
-  //     },
-  //     {
-  //       name: "Marine and aerospace",
-  //       icon: marine,
-  //     },
-  //     {
-  //       name: "Furniture and woodworking",
-  //       icon: woodWorking,
-  //     },
-  //     {
-  //       name: "HVAC and insulation",
-  //       icon: hvac,
-  //     },
-  //     {
-  //       name: "Medical equipment",
-  //       icon: medicalEquip,
-  //     },
-  //     {
-  //       name: "Packaging and shipping",
-  //       icon: packagingShipping,
-  //     },
-  //   ],
-  // },
+  {
+    id: 28,
+    title: "ALUMINUM FOIL TAPE",
+    name: "Aluminium foil tape",
+    path: "aluminium-foil-tape",
+    productImg: img28,
+    // image: aluminiumFoil,
+    about:
+      "Aluminium foil tape is a versatile and durable tape that finds a wide range of applications due to its unique characteristics. The tape consists of a layer of aluminum foil, which provides excellent heat resistance, electrical conductivity, and reflects light and heat. This makes it highly suitable for various industries and applications.<br>The adhesive backing on the tape allows it to adhere to various surfaces, including metals, plastics, and insulation materials. The adhesive is typically strong and capable of providing a secure bond, ensuring that the tape stays in place even under challenging conditions.<br>One of the primary uses of aluminium foil tape is in HVAC (Heating, Ventilation, and Air Conditioning) systems. It is commonly used for sealing joints, seams, and connections in air ducts. The tape's heat resistance and ability to maintain an airtight seal make it ideal for preventing air leaks and improving energy efficiency in HVAC systems.",
+    description: [
+      "For roofing, water proofing, patching and repair.",
+      "For any job requiring tough waterproof protection.",
+      "Reflects heat to keep interiors cool and reduces utility bills.",
+      "Various sizes, thickness and adhesive properties available as per your needs.",
+    ],
+    features: [
+      {
+        name: "Heat Resistance",
+        about:
+          " It reflects both light and heat, making it useful for applications where heat insulation or radiation reflection is required. ",
+      },
+      {
+        name: "Electrical Conductivity",
+        about:
+          "It allows for efficient grounding and can be used for electrical repairs or applications that require conductivity, such as shielding and electromagnetic interference (EMI) protection.",
+      },
+      {
+        name: "Moisture and Chemical Resistance",
+        about:
+          "The aluminium foil backing of the tape provides resistance to moisture, humidity, and some chemicals. This makes it suitable for sealing applications in areas exposed to moisture or where chemical resistance is required.",
+      },
+      {
+        name: "Strong Adhesive Properties",
+        about:
+          "The adhesive is designed to provide long-lasting adhesion and withstand temperature fluctuations, ensuring that the tape remains firmly in place.",
+      },
+      {
+        name: "Flexibility and Conformability",
+        about:
+          "Aluminium foil tape is highly flexible and conformable, allowing it to adhere smoothly to irregular surfaces, corners, and curves..",
+      },
+      {
+        name: "Easy Application and Handling",
+        about:
+          "It can be easily cut to the desired length, and the backing material is typically durable and tear-resistant. ",
+      },
+      {
+        name: "Compatibility with Various Surfaces",
+        about:
+          "Its versatility allows it to be used in different industries and applications where bonding to various substrates is required.",
+      },
+      {
+        name: "Flame Resistance",
+        about:
+          "Aluminium foil tape often exhibits flame resistance properties, which adds an extra layer of safety in applications where fire protection is crucial.",
+      },
+      {
+        name: "Longevity and Durability",
+        about:
+          "It is designed to withstand challenging conditions, such as temperature fluctuations, moisture, and UV exposure. This ensures that the tape maintains its effectiveness and adhesion over an extended period, reducing the need for frequent replacements.",
+      },
+    ],
+    applications: [
+      {
+        name: "HVAC Duct Sealing",
+        about:
+          "It helps prevent air leakage, ensuring efficient airflow and maintaining temperature consistency in heating and cooling systems.",
+        icon: hvac,
+      },
+      {
+        name: "Pipe Insulation",
+        about:
+          " It is used to seal and secure insulation materials around pipes, preventing heat loss or gain and providing protection against moisture. ",
+        icon: pipes,
+      },
+      {
+        name: "Radiant Barrier Installation",
+        about:
+          "The tape is used to seal and secure the edges of the radiant barrier sheets, ensuring a complete and effective barrier installation.",
+        icon: sports,
+      },
+      {
+        name: "Electrical Wiring and Repairs",
+        about:
+          " It can be used for repairing damaged electrical wires, providing a temporary or permanent solution.",
+        icon: electric,
+      },
+      {
+        name: "EMI/RFI Shielding",
+        about:
+          "It is used to create a protective barrier around sensitive electronic components, cables, or devices to prevent interference and maintain signal integrity.",
+        icon: arts,
+      },
+      {
+        name: "Sealing and Repairing Reflective Insulation",
+        about:
+          "It is used to seal gaps, seams, and joints in these reflective insulation systems, ensuring maximum thermal efficiency and preventing the ingress of moisture or air.",
+        icon: repairing,
+      },
+      {
+        name: "Automotive Repairs",
+        about:
+          " It is utilized for various repair applications. It can be used for sealing exhaust systems, repairing damaged hoses or pipes, or securing insulation materials.",
+        icon: automotive,
+      },
+      {
+        name: "Packaging and Wrapping",
+        about:
+          "It is used for sealing packages, securing boxes, and providing an extra layer of protection for goods during transportation or storage.",
+        icon: packagingShipping,
+      },
+      {
+        name: "Crafts and DIY Projects",
+        about:
+          "It can be used for decorative purposes, such as creating shiny accents or reflective surfaces. ",
+        icon: diy,
+      },
+      {
+        name: "Sealing and Repairing Metal Surfaces",
+        about:
+          "It can be used to patch minor damages or leaks in metal pipes, tanks, or equipment.",
+        icon: repairing,
+      },
+    ],
+    videoPath: "",
+    industrialUses: [
+      {
+        name: "Automotive industry",
+        icon: automotive,
+      },
+      {
+        name: "Construction and building",
+        icon: construction,
+      },
+      {
+        name: "Electronics and electrical",
+        icon: electric,
+      },
+      {
+        name: "Appliances and white goods",
+        icon: industrial_equipment,
+      },
+      {
+        name: "Marine and aerospace",
+        icon: marine,
+      },
+      {
+        name: "Furniture and woodworking",
+        icon: woodWorking,
+      },
+      {
+        name: "HVAC and insulation",
+        icon: hvac,
+      },
+      {
+        name: "Medical equipment",
+        icon: medicalEquip,
+      },
+      {
+        name: "Packaging and shipping",
+        icon: packagingShipping,
+      },
+    ],
+    metaKeywords:
+      "Aluminium Foil Tape, alm foil tape, aluminum foil, Aluminum Foil Adhesive Tapes, Aluminium Foil Tapes,Aluminium Foil Tape price",
+    metaTitle: "Aluminium Foil Tape",
+    metaDescription:
+      "Panamax high-quality Aluminium Foil Tape from Panamax Tapes. Ideal for insulation and sealing, our alm foil tape ensures durability and superior performance in various applications.",
+  },
   {
     id: 29,
     title: "CLOTH DUCT TAPE",
@@ -4913,6 +4924,221 @@ const productsData = [
     metaTitle: "Red Polyester Tape",
     metaDescription:
       "Red polyester tape is a type of adhesive tape that is made with a polyester backing material and coated with a strong adhesive on one side.",
+  },
+  {
+    id: 31,
+    title: "Tissue Tape",
+    name: "Tissue Tape",
+    path: "tissue-tape",
+    productImg: img31,
+    image: img31,
+    about:
+      "In the world of adhesives, tissue tape stands out as a versatile and essential product used across various industries. Its flexibility, strength, and ease of use have made it a go-to choice for numerous applications. As a leading manufacturer and supplier, PANAMAX TAPES offers an extensive range of high-quality tissue tapes tailored to meet diverse industrial needs. This article delves deep into the characteristics, applications, and features of tissue tape, including the specific advantages of double-sided tissue tape, and highlights why PANAMAX TAPES is the preferred choice for businesses worldwide.",
+    description: [
+      "Tissue tape is a lightweight, high-tack adhesive tape composed of a tissue paper backing coated with an adhesive on one or both sides.",
+      "The adhesive used can vary, but it typically includes acrylic, rubber, or silicone, providing varying degrees of tackiness, strength, and temperature resistance.",
+      "Due to its thin structure, tissue tape offers a nearly invisible bond, making it ideal for applications where aesthetics and precision are crucial.",
+    ],
+    features: [
+      {
+        name: "High Adhesion",
+        about:
+          "Our tissue tapes offer exceptional adhesion to a wide range of surfaces, including paper, plastic, metal, glass, and fabric. The high tackiness ensures a strong and durable bond that holds up under various conditions.",
+      },
+      {
+        name: "Thin and Lightweight",
+        about:
+          "The tissue tape is remarkably thin, allowing it to be used in applications where a seamless bond is essential. Despite its lightweight nature, it provides robust strength and durability.",
+      },
+      {
+        name: "Double-Sided Options",
+        about:
+          "Double-sided tissue tape is one of the most popular variants, offering adhesive on both sides of the tissue. This makes it ideal for mounting, splicing, and other applications where a hidden adhesive is required.",
+      },
+      {
+        name: "Easy to Tear and Apply",
+        about:
+          "Unlike some other adhesive tapes, tissue tape can be easily torn by hand without the need for scissors or cutters. This feature makes it incredibly convenient for quick applications.",
+      },
+      {
+        name: "Temperature and Moisture Resistance",
+        about:
+          "Our tissue tapes are designed to withstand a range of environmental conditions, including temperature fluctuations and exposure to moisture. This makes them suitable for both indoor and outdoor use.",
+      },
+      {
+        name: "Versatile Adhesive Formulations",
+        about:
+          "PANAMAX TAPES offers tissue tapes with various adhesive formulations, including acrylic and rubber-based adhesives, to meet specific requirements for different applications.",
+      },
+    ],
+    applications: [
+      {
+        name: "Mounting and Bonding",
+        about:
+          "One of the primary uses of tissue tape is for mounting and bonding lightweight objects. The double-sided tissue tape variant is especially useful for mounting photos, posters, and signs without leaving a visible adhesive residue.",
+        icon: color_coding,
+      },
+      {
+        name: "Splicing of Paper and Film",
+        about:
+          "In the paper and film industries, tissue tape is frequently used for splicing applications. Its strong adhesion ensures that paper and film materials are securely joined without causing disruptions in the production process.",
+        icon: idenfication,
+      },
+      {
+        name: "Lamination",
+        about:
+          "Tissue tape is often used in lamination processes to bond different layers of materials. Its thin profile ensures a smooth finish without adding unnecessary bulk.",
+        icon: securing,
+      },
+      {
+        name: "Stationery and Office Use",
+        about:
+          "In offices and homes, tissue tape is a common tool for various tasks, such as gift wrapping, scrapbooking, and crafts. Its easy tearability and strong adhesion make it a convenient choice for everyday use.",
+        icon: repairing,
+      },
+      {
+        name: "Electrical and Electronics Industry",
+        about:
+          "In the electronics industry, tissue tape is used for fixing and bonding components, as well as for insulation purposes. Its high-temperature resistance and electrical insulation properties make it suitable for these applications.",
+        icon: safety_marking,
+      },
+      {
+        name: "Automotive Industry",
+        about:
+          "The automotive industry utilizes tissue tape for various applications, including the attachment of badges, trim, and other components. Its strong adhesion ensures a secure bond that can withstand the rigors of automotive use.",
+        icon: arts,
+      },
+    ],
+    videoPath: "",
+    industrialUses: [
+      {
+        name: "Printing and Packaging",
+        icon: electric,
+      },
+      {
+        name: "Electronics Manufacturing",
+        icon: electronicManufacturing,
+      },
+      {
+        name: "Automotive",
+        icon: aerospace,
+      },
+      {
+        name: "Construction and Interior Design",
+        icon: industrial_equipment,
+      },
+      {
+        name: "Retail and Display",
+        icon: warehouse,
+      },
+    ],
+    metaKeywords:
+      "Tissue Tape, double sided tissue tape,Tissue tape near me,Tissue tape price,Double Sided Tissue Tape Manufacturer,Double Sided Tissue Tape Price",
+    metaTitle: "Tissue Tape",
+    metaDescription:
+      "Tissue Tape: Discover high-quality tissue tapes ideal for bonding, mounting, and crafting. Perfect for industrial, commercial, and personal use. Shop tissue tape now!",
+  },
+  {
+    id: 32,
+    title: "Reinforcement Tape",
+    name: "Reinforcement Tape",
+    path: "reinforcement-tape",
+    productImg: img32,
+    image: img32,
+    about:
+      "In the world of industrial and commercial applications, reinforcement tape plays a crucial role in ensuring durability and strength. This article will delve into the specifics of reinforcement tape, including its description, product features, applications, and the industries that rely on it. Our focus will be on PANAMAX TAPES, a leading name in the reinforcement tape industry.",
+    description: [
+      "PANAMAX TAPES offers a range of reinforcement tapes designed for both light and heavy-duty applications.",
+      "These tapes are engineered to withstand significant stress and strain, making them ideal for use in demanding environments.",
+      "The primary function of reinforcement tape is to reinforce, strengthen, and support the materials it is applied to, ensuring long-lasting performance and durability.",
+    ],
+    features: [
+      {
+        name: "High Tensile Strength",
+        about:
+          "One of the standout features of reinforcement tape is its high tensile strength. This characteristic allows the tape to withstand substantial forces without tearing or losing its adhesive properties. PANAMAX TAPES utilizes advanced manufacturing techniques to ensure that their reinforcement tapes offer superior tensile strength, making them suitable for a wide range of applications.",
+      },
+      {
+        name: "Excellent Adhesion",
+        about:
+          "Reinforcement tape is known for its excellent adhesion properties. The high-quality adhesive used in PANAMAX TAPES products ensures that the tape sticks firmly to various surfaces, including metals, plastics, and composites. This strong bond helps maintain the structural integrity of the materials, reducing the risk of failure or damage.",
+      },
+      {
+        name: "Resistance to Environmental Factors",
+        about:
+          "Environmental factors such as moisture, temperature fluctuations, and UV exposure can significantly impact the performance of adhesive tapes. PANAMAX TAPES reinforcement tapes are designed to resist these environmental challenges, ensuring reliable performance even in harsh conditions. The tape’s resistance to water and chemicals further extends its lifespan and effectiveness.",
+      },
+      {
+        name: "Easy Application",
+        about:
+          "The ease of application is another key feature of reinforcement tape. The tape can be easily applied by hand or with the use of applicators, depending on the size and scope of the job. Its flexibility allows it to conform to various shapes and surfaces, providing a seamless and secure reinforcement.",
+      },
+      {
+        name: "Versatile Use",
+        about:
+          "PANAMAX TAPES reinforcement tapes are versatile and can be used in a multitude of applications. Whether it’s reinforcing packaging materials, securing joints in construction projects, or adding strength to automotive parts, this tape provides the reliability and performance needed for diverse tasks.",
+      },
+    ],
+    applications: [
+      {
+        name: "Packaging Industry",
+        about:
+          "In the packaging industry, reinforcement tape is used to reinforce cartons and boxes, ensuring that they can withstand the rigors of transportation and handling. PANAMAX TAPES reinforcement tapes are ideal for sealing and reinforcing packages, providing added protection against breakage and damage.",
+        icon: color_coding,
+      },
+      {
+        name: "Construction and Manufacturing",
+        about:
+          "In construction and manufacturing, reinforcement tape plays a critical role in strengthening joints and seams in various materials. Whether it’s used to reinforce concrete forms or to secure metal joints, this tape helps improve the durability and longevity of construction projects.",
+        icon: idenfication,
+      },
+      {
+        name: "Automotive Industry",
+        about:
+          "The automotive industry utilizes reinforcement tape for reinforcing parts and components. PANAMAX TAPES products are used to add strength to automotive panels, trim pieces, and other critical areas that require additional support to withstand operational stresses.",
+        icon: securing,
+      },
+      {
+        name: "Electrical Applications",
+        about:
+          "In electrical applications, reinforcement tape is used to secure and insulate wires and cables. The tape’s excellent adhesion and resistance to environmental factors make it an ideal choice for ensuring the safe and reliable operation of electrical systems.",
+        icon: repairing,
+      },
+      {
+        name: "Aerospace and Defense",
+        about:
+          "The aerospace and defense industries require high-performance materials that can withstand extreme conditions. PANAMAX TAPES reinforcement tapes are used in these sectors to provide additional strength and durability to components exposed to high stresses and harsh environments.",
+        icon: safety_marking,
+      },
+    ],
+    videoPath: "",
+    industrialUses: [
+      {
+        name: "Logistics and Supply Chain",
+        icon: electric,
+      },
+      {
+        name: "Construction",
+        icon: electronicManufacturing,
+      },
+      {
+        name: "Automotive Manufacturing",
+        icon: aerospace,
+      },
+      {
+        name: "Electrical and Electronics",
+        icon: industrial_equipment,
+      },
+      {
+        name: "Aerospace and Defense",
+        icon: warehouse,
+      },
+    ],
+    metaKeywords:
+      "Reinforcement tape,Reinforced and Filament Tapes, Reinforced Paper Tape",
+    metaTitle: "Reinforcement tape",
+    metaDescription:
+      "Panamax tapes offers high-quality reinforcement tape for added strength and durability. Ideal for packaging, sealing, and reinforcing applications. Explore our range today!",
   },
 ];
 
