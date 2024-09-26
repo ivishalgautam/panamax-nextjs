@@ -3,7 +3,7 @@ import productsData from "@/store/productsData";
 import Image from "next/image";
 
 export async function generateStaticParams() {
-  const resp = await JSON.stringify(productsData);
+  const resp = JSON.stringify(productsData);
   const products = await JSON.parse(resp);
 
   return products?.map((product) => ({
@@ -13,7 +13,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params: { productId } }) {
   try {
-    const data = await JSON.stringify(
+    const data = JSON.stringify(
       productsData.filter((product) => product.path === productId)
     );
     const product = await JSON.parse(data);

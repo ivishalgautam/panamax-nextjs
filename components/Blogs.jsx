@@ -20,16 +20,17 @@ const Blogs = () => {
       </h2>
       <div className="flex-box-center flex-wrap lg:flex-nowrap gap-8 gap-y-12 py-4 px-2 md:px-8">
         {blogs
-          .reverse()
-          .slice(0, 3)
+          .slice(blogs.length - 3, blogs.length)
           .map(({ id, title, desc, image, postedOn, path }) => {
             return (
               <Link key={id} href={`/blogs/${path}`}>
                 <div className="rounded-xl shadow-md  relative md:pb-0">
                   <figure className="">
                     <Image
-                      src={image}
-                      alt={title}
+                      src={image.src}
+                      alt={"image"}
+                      width={image.width}
+                      height={image.height}
                       className="w-full h-[200px] object-cover object-center rounded-xl"
                     />
                   </figure>

@@ -10,6 +10,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import Script from "next/script";
+import Layout from "@/components/layout/index";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -77,30 +79,29 @@ export default function RootLayout({ children }) {
       "https://panamax.co.in/",
     ],
   };
+
   return (
     <html lang="en">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
-      />
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+        />
 
-      <GoogleTagManager gtmId="GTM-NDFF5SCZ" />
+        <GoogleTagManager gtmId="GTM-NDFF5SCZ" />
 
-      <noscript>
-        <iframe
-          src="https://www.googletagmanager.com/ns.html?id=GTM-NDFF5SCZ"
-          height="0"
-          width="0"
-          style={{ display: "none", visibility: "hidden" }}
-        ></iframe>
-      </noscript>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NDFF5SCZ"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
+      </head>
 
-      <body className={poppins.className}>
-        <Providers>
-          <Navbar />
-          {children}
-          <SpeedInsights />
-        </Providers>
+      <body className={poppins.className} suppressHydrationWarning={true}>
+        <Layout>{children}</Layout>
       </body>
     </html>
   );
