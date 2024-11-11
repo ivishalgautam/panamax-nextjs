@@ -18,10 +18,11 @@
     "next": "^14.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hook-form": "^7.43.9",
+    "react-hook-form": "^7.53.2",
     "react-icons": "^4.8.0",
     "react-redux": "^8.0.5",
     "react-share": "^4.4.1",
+    "sonner": "^1.7.0",
     "swiper": "^9.3.2"
   },
   "devDependencies": {

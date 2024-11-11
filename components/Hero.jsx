@@ -13,6 +13,7 @@ import banner2 from "../public/assets/Banner-2.jpg";
 import banner3 from "../public/assets/Banner-3.jpg";
 import banner4 from "../public/assets/Banner-4.jpg";
 import Image from "next/image";
+import EnquiryForm from "./forms/enquiry";
 
 const Hero = () => {
   SwiperCore.use([Autoplay]);
@@ -82,64 +83,7 @@ const Hero = () => {
         <h2 className="text-2xl font-bold text-primary text-shadow">
           Enquire Now
         </h2>
-        <form
-          method="post"
-          action="https://panamax.co.in/portal/form.php"
-          className="flex items-center justify-center flex-col gap-4 w-full"
-        >
-          <div className="input-group">
-            <input
-              required
-              type="text"
-              name="name"
-              autoComplete="off"
-              className="input"
-            />
-            <label className="user-label">Full Name</label>
-          </div>
-          <div className="input-group">
-            <input
-              required
-              type="tel"
-              name="number"
-              autoComplete="off"
-              className="input"
-            />
-            <label className="user-label">Phone</label>
-          </div>
-          <div className="input-group">
-            <input
-              required
-              type="email"
-              name="email"
-              autoComplete="off"
-              className="input"
-            />
-            <label className="user-label">Email</label>
-          </div>
-          <input
-            required
-            type="hidden"
-            name="product"
-            autoComplete="off"
-            className="input"
-            value="homepage form"
-          />
-          <div className="input-group">
-            <input
-              required
-              type="text"
-              name="company"
-              autoComplete="off"
-              className="input"
-            />
-            <label className="user-label">Company</label>
-          </div>
-
-          <button type="submit" name="submit" className="btn-primary">
-            Send Enquiry
-          </button>
-        </form>
+        <EnquiryForm isProductInput={false} />
       </motion.div>
     </section>
   );

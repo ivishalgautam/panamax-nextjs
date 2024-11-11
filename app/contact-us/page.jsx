@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Footer from "@/components/Footer";
 import Head from "next/head";
+import EnquiryForm from "@/components/forms/enquiry";
 
 export const ContactUs = () => {
   const pathname = usePathname();
@@ -20,85 +21,17 @@ export const ContactUs = () => {
         </Head>
         <div className="h-full w-full bg-white rounded-xl overflow-hidden grid md:grid-cols-2 gap-10 gap-y-12 py-8 px-4 md:px-10 lg:px-12 shadow-sm relative after:absolute after:right-0 after:top-0 after:w-1/5 after:h-full after:bg-primary after:hidden after:md:block">
           {/* form */}
-          <div className="form w-full col-span-2 md:col-span-1">
-            <form
-              method="post"
-              action="https://panamax.co.in/portal/form.php"
-              className="col-span-2 md:col-span-1 w-full"
-            >
-              <div className="flex flex-col justify-center items-center h-full gap-6">
-                {/* headings */}
-                <div className="text-start w-full">
-                  <h2 className="text-slate-950 text-3xl font-bold capitalize">
-                    contact{" "}
-                    <span className="text-primary text-shadow">panamax</span>
-                  </h2>
-                  <p className="text-sm text-slate-700">
-                    Contact us we will contact with you soon.
-                  </p>
-                </div>
-                {/* inputs */}
-                <div className="grid grid-cols-2 gap-6 w-full">
-                  <div className="relative col-span-2 md:col-span-1">
-                    <input
-                      className="border border-[#EEEEEE] text-sm p-2 rounded-md w-full focus:border-primary transition-colors"
-                      type="text"
-                      name="name"
-                      placeholder="Full Name"
-                      required
-                    />
-                  </div>
-                  <div className="relative col-span-2 md:col-span-1">
-                    <input
-                      className="border border-[#EEEEEE] text-sm p-2 rounded-md w-full focus:border-primary transition-colors"
-                      type="email"
-                      name="email"
-                      placeholder="Email"
-                      required
-                    />
-                  </div>
-                  <div className="relative col-span-2 md:col-span-1">
-                    <input
-                      className="border border-[#EEEEEE] text-sm p-2 rounded-md w-full focus:border-primary transition-colors"
-                      type="tel"
-                      name="number"
-                      placeholder="Phone Number"
-                      required
-                    />
-                  </div>
-                  <div className="relative col-span-2 md:col-span-1">
-                    <input
-                      className="border border-[#EEEEEE] text-sm p-2 rounded-md w-full focus:border-primary transition-colors"
-                      type="text"
-                      name="company"
-                      placeholder="Company"
-                      required
-                    />
-                  </div>
-                  <div className="relative col-span-2 ">
-                    <input
-                      className="border border-[#EEEEEE] text-sm p-2 rounded-md w-full focus:border-primary transition-colors"
-                      type="text"
-                      name="product"
-                      placeholder="Product"
-                      required
-                    />
-                  </div>
-                </div>
-
-                {/* cta */}
-                <div className="w-full col-span-2 flex-box-center">
-                  <button
-                    type="submit"
-                    name="submit"
-                    // value="Send Enquiry"
-                    className="btn-primary cursor-pointer w-full md:w-[80%] lg:w-1/3 mx-auto capitalize"
-                  >
-                    send enquiry
-                  </button>
-                </div>
-              </div>
-            </form>
+          <div className="form w-full col-span-2 md:col-span-1 space-y-2">
+            <div className="text-start w-full">
+              <h2 className="text-slate-950 text-3xl font-bold capitalize">
+                contact{" "}
+                <span className="text-primary text-shadow">panamax</span>
+              </h2>
+              <p className="text-sm text-slate-700">
+                Contact us we will contact with you soon.
+              </p>
+            </div>
+            <EnquiryForm />
           </div>
 
           {/* maps */}

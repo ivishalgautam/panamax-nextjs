@@ -4,6 +4,7 @@ import { Fragment } from "react";
 import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
 import { closeModal } from "../store/features/modalSlice";
+import EnquiryForm from "./forms/enquiry";
 
 export default function Modal({ productTitle }) {
   // console.log(productTitle);
@@ -70,84 +71,10 @@ export default function Modal({ productTitle }) {
                     </p>
                   </Dialog.Title>
                   <div className="mt-2">
-                    <form
-                      method="post"
-                      action="https://magnitecorp.com/panamax-backend/form.php"
-                      // onSubmit={handleSubmit(handleClose)}
-                      className="col-span-1"
-                    >
-                      <div className="flex flex-col justify-center items-center h-full gap-y-6">
-                        {/* inputs */}
-                        <div className="gap-y-4 w-full grid grid-cols-1">
-                          {/* name */}
-                          <div className="relative ">
-                            <input
-                              type="text"
-                              name="name"
-                              placeholder="Enter your name"
-                              required
-                              className="border border-[#EEEEEE] focus:border-primary text-sm p-2 rounded-md w-full transition-colors"
-                            />
-                          </div>
-                          {/* email */}
-                          <div className="relative md:col-span-1">
-                            <input
-                              type="email"
-                              name="email"
-                              required
-                              placeholder="Enter you email"
-                              className={`border border-[#EEEEEE] focus:border-primary text-sm p-2 rounded-md w-full transition-colors`}
-                            />
-                          </div>
-                          {/* phone number */}
-                          <div className="relative md:col-span-1">
-                            <input
-                              type="tel"
-                              name="number"
-                              required
-                              placeholder="Enter your contact no."
-                              className="border border-[#EEEEEE] focus:border-primary text-sm p-2 rounded-md w-full transition-colors"
-                            />
-                          </div>
-
-                          {/* company */}
-                          <div className="relative">
-                            <input
-                              name="company"
-                              type="text"
-                              required
-                              placeholder="company"
-                              className="border border-[#EEEEEE] focus:border-primary text-sm p-2 rounded-md w-full transition-colors"
-                            />
-                          </div>
-
-                          {/* product */}
-                          <div className="">
-                            <input
-                              type="text"
-                              name="product"
-                              required
-                              rows="4"
-                              placeholder="Product"
-                              className="border !border-[#EEEEEE] text-sm p-2 rounded-md w-full h-full capitalize cursor-not-allowed pointer-events-none bg-gray-100"
-                              value={productTitle}
-                            />
-                          </div>
-                        </div>
-
-                        {/* cta and info */}
-                        <div className="w-full">
-                          <button
-                            type="submit"
-                            name="submit"
-                            className="btn-primary cursor-pointer w-full"
-                            onClick={handleClose}
-                          >
-                            Submit
-                          </button>
-                        </div>
-                      </div>
-                    </form>
+                    <EnquiryForm
+                      product={productTitle}
+                      isProductDisabled={false}
+                    />
                   </div>
                 </Dialog.Panel>
               </Transition.Child>

@@ -12,6 +12,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Script from "next/script";
 import Layout from "@/components/layout/index";
+import { Toaster } from "sonner";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -101,7 +102,10 @@ export default function RootLayout({ children }) {
       </head>
 
       <body className={poppins.className} suppressHydrationWarning={true}>
-        <Layout>{children}</Layout>
+        <Layout>
+          <Toaster position="bottom-right" />
+          {children}
+        </Layout>
       </body>
     </html>
   );
