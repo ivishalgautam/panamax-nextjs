@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "Blog - PANAMAX LIMITED",
+  title: "Blog - PANAMAX TAPES",
   description:
     "Explore the latest insights and innovations in tape manufacturing at Panamax. Our blogs cover the tape industry's trends, technologies, and applications.",
   keywords:
@@ -10,7 +10,7 @@ export const metadata = {
     canonical: "https://panamax.co.in/blogs",
   },
   openGraph: {
-    title: "Blog - PANAMAX LIMITED",
+    title: "Blog - PANAMAX TAPES",
     description:
       "Explore the latest insights and innovations in tape manufacturing at Panamax. Our blogs cover the tape industry's trends, technologies, and applications.",
   },
