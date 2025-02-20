@@ -251,16 +251,26 @@ const Navbar = () => {
                         key={key}
                         className="text-black text-start text-sm mb-2"
                       >
-                        <Link
-                          href={`/product/${submenu.path}`}
-                          className="inline-block h-full w-full"
-                          onClick={() => {
-                            setIsNavOpened(false);
-                            handleHamClick();
-                          }}
-                        >
-                          {submenu.title}
-                        </Link>
+                        {!submenu.isExternalPath ? (
+                          <Link
+                            href={`/product/${submenu.path}`}
+                            className="inline-block h-full w-full"
+                            onClick={() => {
+                              setIsNavOpened(false);
+                              handleHamClick();
+                            }}
+                          >
+                            {submenu.title}
+                          </Link>
+                        ) : (
+                          <a
+                            target="_blank"
+                            href={submenu.path}
+                            className="inline-block h-full w-full"
+                          >
+                            {submenu.name}
+                          </a>
+                        )}
                       </li>
                     );
                   })}
