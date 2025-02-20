@@ -6,15 +6,19 @@ export async function generateStaticParams() {
   const resp = JSON.stringify(productsData);
   const products = await JSON.parse(resp);
 
-  return products?.map((product) => ({
-    productId: product.path.toString(),
-  }));
+  return products
+    ?.filter((i) => !i.isExternalPath)
+    .map((product) => ({
+      productId: product.path.toString(),
+    }));
 }
 
 export async function generateMetadata({ params: { productId } }) {
   try {
     const data = JSON.stringify(
-      productsData.filter((product) => product.path === productId)
+      productsData.filter(
+        (product) => !product.isExternalPath && product.path === productId
+      )
     );
     const product = await JSON.parse(data);
 

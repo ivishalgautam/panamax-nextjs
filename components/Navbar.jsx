@@ -111,7 +111,7 @@ const Navbar = () => {
                   href={menu.path}
                   className={`text-sm capitalize ${
                     pathname === menu.path && "font-semibold text-primary"
-                  } `}
+                  }`}
                 >
                   {menu.name}
                 </Link>
@@ -152,16 +152,30 @@ const Navbar = () => {
                       {menu?.submenu?.map((submenu) => {
                         return (
                           <Menu.Item key={submenu.id}>
-                            <Link
-                              href={`/product/${submenu.path}`}
-                              className={`flex items-center h-full w-full text-start px-2 py-2 text-sm hover:tracking-wider ${
-                                pathname.split("/")[2] === submenu.path
-                                  ? "bg-primary text-white"
-                                  : "hover:bg-primary hover:text-white"
-                              }  rounded-md transition-all`}
-                            >
-                              {submenu.name}
-                            </Link>
+                            {!submenu.isExternalPath ? (
+                              <Link
+                                href={`/product/${submenu.path}`}
+                                className={`flex items-center h-full w-full text-start px-2 py-2 text-sm hover:tracking-wider ${
+                                  pathname.split("/")[2] === submenu.path
+                                    ? "bg-primary text-white"
+                                    : "hover:bg-primary hover:text-white"
+                                }  rounded-md transition-all`}
+                              >
+                                {submenu.name}
+                              </Link>
+                            ) : (
+                              <a
+                                target="_blank"
+                                href={submenu.path}
+                                className={`flex items-center h-full w-full text-start px-2 py-2 text-sm hover:tracking-wider ${
+                                  pathname.split("/")[2] === submenu.path
+                                    ? "bg-primary text-white"
+                                    : "hover:bg-primary hover:text-white"
+                                }  rounded-md transition-all`}
+                              >
+                                {submenu.name}
+                              </a>
+                            )}
                           </Menu.Item>
                         );
                       })}

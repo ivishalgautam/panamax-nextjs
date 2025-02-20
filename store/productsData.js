@@ -281,6 +281,7 @@ const productsData = [
     metaKeywords:
       "adhesive tapes, adhesive tape manufacturer, industrial adhesive tapes, packaging material, adhesive tape manufacturers in india, masking tapes, masking tape manufacturer, protective tape, surface protection tapes, painters tape, industrial tape manufacturer",
     metaTitle: "Masking Tape",
+    isExternalPath:false,
     metaDescription:
       "Masking tape is a versatile adhesive tape that is designed to be easily applied and removed without leaving behind residue or damaging surfaces.",
   },
@@ -436,6 +437,7 @@ const productsData = [
     metaKeywords:
       "pre masking tape price,pre masking tape near me,pre masking tape manufacturers,pre masking tape manufacturers in india,pre masking tape supplier,pre masking tape manufacturers in Delhi,",
     metaTitle: "Pre Masking Tape",
+    isExternalPath:false,
     metaDescription:
       "Pre-masking tape, also known as pre-taped masking film or pre-taped masking paper, is a specialized type of tape used in various painting and construction applications.",
   },
@@ -608,6 +610,8 @@ const productsData = [
       "acrylic foam tape, acrylic foam tape manufacturers, masking tape manufacturers, crepe paper tape, Body Side Mouldings, masking tape, eva foam tape, fine line masking tape, adhesive tape manufacturers in india, bopp tape manufacturer in delhi, automotive adhesive tape, self adhesive tape manufacturer, industrial adhesive tape, ar sheet, security packaging tape, foam tape manufacturers",
     metaTitle:
       "THB Tape, Acrylic Double Sided Tape, Acrylic Foam Tape, Delhi, India",
+    isExternalPath:false,
+
     metaDescription:
       "TBH Acrylic Foam Tape is a high-performance adhesive tape known for its exceptional bonding strength and durability. It is made of a closed-cell acrylic foam with adhesive on both sides, providing a strong bond between two surfaces.",
   },
@@ -741,6 +745,7 @@ const productsData = [
     metaKeywords:
       "Nano sil tape price,Nano Gel Tape,Nano Gel Tape india, Nano Gel Tape delhi , Nano Gel Tape manufacturers, nano tape price in india",
     metaTitle: "Nano-Sil Tape",
+    isExternalPath:false,
     metaDescription:
       "Nano-Sil tape is a specialized adhesive tape that is designed for a variety of sealing and bonding applications. It is known for its high-performance properties and versatility, making it a valuable tool in various industries and DIY projects.",
   },
@@ -891,6 +896,7 @@ const productsData = [
     metaKeywords:
       "Mirror mounting tape india, Mirror mounting tape, Mirror mounting tape in delhi, Mirror mounting tape manufacturers,",
     metaTitle: "Mirror Mounting Tape",
+    isExternalPath:false,
     metaDescription:
       "Mirror mounting tape is a specially formulated adhesive tape that is specifically designed to securely attach mirrors to different surfaces. It features a double-sided adhesive coating, typically with a foam or film backing",
   },
@@ -1072,6 +1078,7 @@ const productsData = [
     metaKeywords:
       "Pmx double sided tape price,Pmx double sided tape near me,Pmx double sided tape in delhi, Pmx double sided tape manufacturers, Pmx double sided tape manufacturersin india",
     metaTitle: "PMX'5000",
+    isExternalPath:false,
     metaDescription:
       "PMX Double-sided tape typically consists of a thin layer of adhesive sandwiched between two release liners, which are removed during the application process.",
   },
@@ -1233,6 +1240,8 @@ const productsData = [
     ],
     metaKeywords:
       "electrical insulation tape,pvc insulation tape, pvc tape, electrical insulation tape price,Insulation tape price in india,electrical insulation tape manufacturers,electrical insulation tape manufacturers in india,electrical insulation tape near me, electrical insulation tape in delhi,",
+    isExternalPath:false,
+
     metaTitle:
       "PVC Tape Self Adhesive Electrical Insulation Tape | Panamax Taps",
     metaDescription:
@@ -1413,6 +1422,7 @@ const productsData = [
     metaKeywords:
       "Drywall Tape at Best Price in India,Drywall joint tape near me,Drywall joint tape india,Drywall joint tape manufacturers,Drywall joint tape supplier,",
     metaTitle: "Dry Wall Joint Tape",
+    isExternalPath:false,
     metaDescription:
       "Drywall joint tape is made of a strong, self-adhesive fiberglass mesh material that is highly durable and resistant to tearing. Its unique construction allows it to bond securely with the drywall surface",
   },
@@ -1572,6 +1582,7 @@ const productsData = [
     metaKeywords:
       "thread seal tape price, thread seal tape near me, thread seal tape manufacturers, thread seal tape manufacturers in india,thread seal tape manufacturers,thread seal tape supplier",
     metaTitle: "PTFE Thread Seal Tape",
+    isExternalPath:false,
     metaDescription:
       "PTFE thread seal tape, also known as plumber's tape or Teflon tape, is a specialized type of adhesive tape used in plumbing and pipe fitting applications.",
   },
@@ -1716,6 +1727,7 @@ const productsData = [
     metaKeywords:
       "Bag Sealing Tape, Bag Sealing Tape Manufacturer,Bag Sealing Tape Manufacturer,Supplier,Exporter,Bag sealing tape near me, Bag sealing tape india,Bag sealing tape price",
     metaTitle: "Bag Sealing Tape",
+    isExternalPath:false,
     metaDescription:
       "Buy high-quality Bag Sealing Tape from Panamax Tapes, perfect for securely sealing bags in various industries. Durable, reliable, and easy to use for all packaging needs.",
   },
@@ -1865,6 +1877,7 @@ const productsData = [
     metaKeywords:
       "plate mounting tape price,plate mounting tape near me, plate mounting tape manufacturers in india,plate mounting tape supplier",
     metaTitle: "Plate Mounting Tape",
+    isExternalPath:false,
     metaDescription:
       "Plate mounting tape for flexographic printing is a specialized adhesive tape used in the process of mounting printing plates onto cylinders or sleeves in flexographic printing machines.",
   },
@@ -1999,6 +2012,7 @@ const productsData = [
     metaKeywords:
       "PTFE Fiber Glass Cloth Tape price,PTFE Fiber Glass Cloth Tape near me, PTFE Fiber Glass Cloth Tape manufacturers in india,",
     metaTitle: "PTFE Fiber Glass Cloth Tape",
+    isExternalPath:false,
     metaDescription:
       "PTFE (Polytetrafluoroethylene) fiberglass cloth tape and belts are specialized materials that combine the exceptional properties of PTFE and fiberglass to create a versatile and high-performance adhesive product",
   },
@@ -2164,6 +2178,7 @@ const productsData = [
     metaKeywords:
       "structural glazing tape,structural glazing tape price in india, structural glazing tape price, structural glazing tape manufacturers in india,",
     metaTitle: "Structural Glazing Tape",
+    isExternalPath:false,
     metaDescription:
       "Structural glazing tape is a specialized adhesive tape designed for bonding and sealing glass panels in structural glazing applications.",
   },
@@ -2315,6 +2330,7 @@ const productsData = [
     metaKeywords:
       "multi stick tape waterproof, multi stick tape price,double sided tape, multi stick tape near me, multi stick tape manufacturers in india,multi stick tape supplier,",
     metaTitle: "Multi Stick Tape",
+    isExternalPath:false,
     metaDescription:
       "Multi-stick tape is its ability to bond to both smooth and rough surfaces. Whether it is used on glass, metal, plastic, wood, or fabric, this tape offers reliable adhesion, creating a strong and lasting bond.",
   },
@@ -2456,6 +2472,7 @@ const productsData = [
     metaKeywords:
       "Anti slip tape price, Anti slip tape near me, Best anti slip tape, 3M Anti Skid Tape, Anti slip tape manufacturers , Anti slip tape supplier,",
     metaTitle: "Anti Slip Tape",
+    isExternalPath:false,
     metaDescription:
       "Anti-slip tape is a specialized adhesive tape designed to provide traction and reduce the risk of slipping or falling on various surfaces.",
   },
@@ -2635,6 +2652,7 @@ const productsData = [
     metaKeywords:
       "Shuttering Tape Price,Shuttering Tape Price,Shuttering tape near me,Best shuttering tape,Shuttering Tape manufacturer,Shuttering Tape supplier,",
     metaTitle: "Shuttering Tape",
+    isExternalPath:false,
     metaDescription:
       "Shuttering tape is typically made of durable materials, such as reinforced fabric or high-strength adhesive, to withstand the rigors of construction work.",
   },
@@ -2806,6 +2824,7 @@ const productsData = [
     metaKeywords:
       "Laminate fixing tape price,Laminate fixing tape delhi,Laminate fixing tape india,Best laminate fixing tape,Laminate fixing tape for wood,Laminate fixing tape manufacturer, Laminate fixing tape supplier,",
     metaTitle: "Laminate Fixing Tape",
+    isExternalPath:false,
     metaDescription:
       "Laminate Fixing Tape is a specialized adhesive tape designed for fixing laminate flooring and other laminate materials securely in place.",
   },
@@ -2985,6 +3004,7 @@ const productsData = [
     metaKeywords:
       "Edge banding fixing tape near me,Edge banding fixing tape price,edge banding tape in delhi,edge banding tape manufacturer,edge banding tape supplier,",
     metaTitle: "Edge Banding Fixing Tape",
+    isExternalPath:false,
     metaDescription:
       "Edge banding fixing tape is a specialized adhesive tape used in woodworking and furniture manufacturing.",
   },
@@ -3154,6 +3174,7 @@ const productsData = [
     metaKeywords:
       "roof repair flashing tape,Best roof repair flashing tape,Roof repair flashing tape price,Roof repair flashing tape near me,Roof repair flashing tape india,Waterproof sealing Tape for Roof, Roof repair flashing tape manufacturer,",
     metaTitle: "Roof Repair Flashing Tape",
+    isExternalPath:false,
     metaDescription:
       "Roof repair flashing tape is a specialized adhesive tape designed for repairing and sealing various types of roof flashing.",
   },
@@ -3333,6 +3354,7 @@ const productsData = [
     metaKeywords:
       "Leak stopper tape price,Leak stopper tape near me,Best leak stopper tape,Leak stopper tape manufacturer,Leak stopper tape supplier,Leak stopper tape in delhi",
     metaTitle: "Leak Stopper Tape",
+    isExternalPath:false,
     metaDescription:
       "Leak stopper tape is a specialized adhesive tape designed to provide a quick and temporary solution for sealing leaks in various materials and surfaces.",
   },
@@ -3487,6 +3509,7 @@ const productsData = [
     metaKeywords:
       "surface protection film tape,surface protection film manufacturers in india, surface protection film manufacturers in delhi,surface protection film near me,surface protection film tape price,",
     metaTitle: "Surface Protection Film Tape",
+    isExternalPath:false,
     metaDescription:
       "Surface protection film tape, also known as surface protection tape or temporary protective tape, is a specialized adhesive tape designed to protect surfaces from damage during handling, transportation, installation",
   },
@@ -3626,6 +3649,7 @@ const productsData = [
     metaKeywords:
       "Kraft paper tape price,Craft paper tape near me,Craft paper tape india,Craft paper tape, Kraft paper tape manufacturers,Kraft paper tape manufacturers in india, Kraft paper tape supplier",
     metaTitle: "Kraft Paper Tape",
+    isExternalPath:false,
     metaDescription:
       "Kraft paper tape, also known as Kraft paper tape, is a type of adhesive tape made from Kraft paper, a durable and eco-friendly material. It is widely used in various crafting, packaging, and sealing applications.",
   },
@@ -3782,6 +3806,7 @@ const productsData = [
     metaKeywords:
       "bopp packaging tape,Bopp packaging tape price,Bopp packaging tape near me,Bopp packaging tape india,bopp tape manufacturer in india,bopp tape manufacturer near me,",
     metaTitle: "BOPP Packaging Tape",
+    isExternalPath:false,
     metaDescription:
       "BOPP packaging tape, also known as Biaxially Oriented Polypropylene tape, is a widely used adhesive tape in packaging and sealing applications.",
   },
@@ -3955,6 +3980,7 @@ const productsData = [
     metaKeywords:
       "floor protection tape,Floor protection tape price,Floor protection tape india,Floor protection tape manufacturers in india,Floor protection tape manufacturers,Floor protection tape supplier,",
     metaTitle: "Floor Protection Tape",
+    isExternalPath:false,
     metaDescription:
       "Floor protection tape is a specialized adhesive tape designed to safeguard floors from damage, scratches, and stains during construction, renovation, or other high-traffic activities.",
   },
@@ -4104,6 +4130,7 @@ const productsData = [
     metaKeywords:
       "Wood guard tape price,Wood guard tape price,wood guard tape manufacturer,wood guard tape manufacturer in india,wood guard tape supplier,",
     metaTitle: "Wood Guard Tape",
+    isExternalPath:false,
     metaDescription:
       "Wood guard tape is a specialized adhesive tape designed to protect wooden surfaces from scratches, impact, and damage.",
   },
@@ -4272,6 +4299,7 @@ const productsData = [
     metaKeywords:
       "Wood guard tape is a specialized adhesive tape designed to protect wooden surfaces from scratches, impact, and damage.",
     metaTitle: "Floor Marking Tape",
+    isExternalPath:false,
     metaDescription:
       "Floor marking tape is a specialized adhesive tape designed to create highly visible lines and markings on floors.",
   },
@@ -4442,6 +4470,7 @@ const productsData = [
     metaKeywords:
       "Spacer & eva foam tape price,Spacer & eva foam tape near me,Spacer & eva foam tape manufacturer,Spacer & eva foam tape manufacturer in india,Spacer & eva foam tape supplier",
     metaTitle: "SPACER & EVA Foam Tape",
+    isExternalPath:false,
     metaDescription:
       "Spacer and EVA (Ethylene-Vinyl Acetate) foam tape is a type of adhesive tape that combines the properties of both a spacer and a cushioning material.",
   },
@@ -4611,6 +4640,7 @@ const productsData = [
     metaKeywords:
       "Aluminium Foil Tape, alm foil tape, aluminum foil, Aluminum Foil Adhesive Tapes, Aluminium Foil Tapes,Aluminium Foil Tape price",
     metaTitle: "Aluminium Foil Tape",
+    isExternalPath:false,
     metaDescription:
       "Panamax high-quality Aluminium Foil Tape from Panamax Tapes. Ideal for insulation and sealing, our alm foil tape ensures durability and superior performance in various applications.",
   },
@@ -4744,6 +4774,7 @@ const productsData = [
     ],
     metaKeywords:
       "Duct Tape, Duct Tape Manufacturer, Wholesaler and suppliers in delhi, india,Cloth duct tape price,Duct Tape price,duct tape price in india, duct tape in india, duct tape manufacturerin india",
+    isExternalPath:false,
     metaTitle:
       "Duct Tape Manufacturer, Wholesaler and suppliers in Delhi, india",
     metaDescription:
@@ -4922,6 +4953,7 @@ const productsData = [
     metaKeywords:
       "Red polyester tape,3M Double Sided Tape,Red polyester tape price,Red polyester tape manufacturer in india,Red polyester tape manufacturer,",
     metaTitle: "Red Polyester Tape",
+    isExternalPath:false,
     metaDescription:
       "Red polyester tape is a type of adhesive tape that is made with a polyester backing material and coated with a strong adhesive on one side.",
   },
@@ -5035,6 +5067,7 @@ const productsData = [
     metaKeywords:
       "Tissue Tape, double sided tissue tape,Tissue tape near me,Tissue tape price,Double Sided Tissue Tape Manufacturer,Double Sided Tissue Tape Price",
     metaTitle: "Tissue Tape",
+    isExternalPath:false,
     metaDescription:
       "Tissue Tape: Discover high-quality tissue tapes ideal for bonding, mounting, and crafting. Perfect for industrial, commercial, and personal use. Shop tissue tape now!",
   },
@@ -5137,9 +5170,18 @@ const productsData = [
     metaKeywords:
       "Reinforcement tape,Reinforced and Filament Tapes, Reinforced Paper Tape",
     metaTitle: "Reinforcement tape",
+    isExternalPath:false,
     metaDescription:
       "Panamax tapes offers high-quality reinforcement tape for added strength and durability. Ideal for packaging, sealing, and reinforcing applications. Explore our range today!",
   },
+  {
+    id: 33,
+    title: "Retro Reflective Tape",
+    name: "Retro Reflective Tape",
+    path: "https://panamaxretroreflectivetape.in/",
+    isExternalPath:true,
+
+  }
 ];
 
 export default productsData;
